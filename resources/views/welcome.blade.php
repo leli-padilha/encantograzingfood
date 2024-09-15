@@ -79,7 +79,7 @@
                 <div class="max-w-screen-xl m-auto flex justify-between items-center sm:flex flex-col">
                     <div class="w-full flex flex-col gap-5">
                         <div class="flex flex-col gap-2">
-                            <h1 class="font-lhcencoreregular text-justify text-3xl">Transforme uma simples cesta de café da manhã em um momento especial</h1>
+                            <h1 class="font-lhcencoreregular text-justify text-3xl">teste Transforme uma simples cesta de café da manhã em um momento especial</h1>
                             <p class="font-antonio text-justify text-sm tracking-wide">
                                 <!-- Cestas encantadoras capazes de unir sabor e emoção em um único presente. </br> -->
                                 Criadas e entregues nas cidades de Marau, Vila Maria | RS.
@@ -188,18 +188,22 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Perguntas Frequentes -->
             <section class="px-4 py-5">
-                <div class="flex flex-col gap-5">
-                    <h3 class="font-lhcencoreregular text-2xl text-center">Perguntas Frequentes</h3>
-                    <div class="w-full">
+                <div class="max-w-7xl m-auto flex flex-col gap-5 md:flex-row">
+                    <h3 class="font-lhcencoreregular text-2xl text-center md:w-2/5">Perguntas Frequentes</h3>
+                    <div class="w-full md:w-3/5">
                         <ul class="flex flex-col gap-4">
                             <li>
-                                <div class="border-b border-gray-200 py-4">
+                                <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
                                     <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(1)">
                                         <h3 class="font-antonio text-lg font-semibold text-gray-800"> Quando é feito o pagamento?</h3>
-                                        <svg id="arrow-1" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                        </svg>
+                                        <div class="min-h-5 min-w-5">
+                                            <svg id="arrow-1" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
                                     </div>
                                     <div id="answer-1" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                                         <p class="mt-2 text-gray-600 font-montserrat">
@@ -209,14 +213,16 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="border-b border-gray-200 py-4">
-                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(1)">
+                                <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
+                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(2)">
                                         <h3 class="font-antonio text-lg font-semibold text-gray-800"> Com quantos dias de antecedência preciso fazer o pedido?</h3>
-                                        <svg id="arrow-1" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                        </svg>
+                                        <div class="min-h-5 min-w-5">
+                                            <svg id="arrow-2" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
                                     </div>
-                                    <div id="answer-1" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                                    <div id="answer-2" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                                         <p class="mt-2 text-gray-600 font-montserrat">
                                             O ideal é pelo menos 24 horas de antecedência, porém se tiver disponibilidade dos itens e de agenda conseguimos montar em poucas horas. 
                                         </p>
@@ -224,14 +230,16 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="border-b border-gray-200 py-4">
-                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(1)">
+                                <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
+                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(3)">
                                         <h3 class="font-antonio text-lg font-semibold text-gray-800"> Porque nosso produto Encanta quem consome?</h3>
-                                        <svg id="arrow-1" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                        </svg>
+                                        <div class="min-h-5 min-w-5">
+                                            <svg id="arrow-3" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
                                     </div>
-                                    <div id="answer-1" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                                    <div id="answer-3" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                                         <p class="mt-2 text-gray-600 font-montserrat">
                                             Temos muitos itens produzidos aqui na Encanto, de forma artesanal, que fazem muito sucesso. Tudo é preparado com muito carinho, cuidado e amor, sempre presando qualidade e excelência. 
                                         </p>
@@ -239,14 +247,16 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="border-b border-gray-200 py-4">
-                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(1)">
+                                <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
+                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(4)">
                                         <h3 class="font-antonio text-lg font-semibold text-gray-800"> Balões personalizados, bolos recheados, biscoitos decorados, tem?</h3>
-                                        <svg id="arrow-1" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                        </svg>
+                                        <div class="min-h-5 min-w-5">
+                                            <svg id="arrow-4" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
                                     </div>
-                                    <div id="answer-1" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                                    <div id="answer-4" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                                         <p class="mt-2 text-gray-600 font-montserrat">
                                             Tem sim, temos parceiras para esses produtos, porém precisamos de pelo menos 48 hrs de antecedência no pedido. 
                                         </p>
@@ -254,14 +264,16 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="border-b border-gray-200 py-4">
-                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(1)">
+                                <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
+                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(5)">
                                         <h3 class="font-antonio  text-lg font-semibold text-gray-800"> ⁠Porque todos os produtos tem frutas?</h3>
-                                        <svg id="arrow-1" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                        </svg>
+                                        <div class="min-h-5 min-w-5">
+                                            <svg id="arrow-5" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
                                     </div>
-                                    <div id="answer-1" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                                    <div id="answer-5" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                                         <p class="mt-2 text-gray-600 font-montserrat">
                                             As frutas tem um papel bem especial nos nossos produtos, além de darem refrescância e colorido nas montagens elas servem para fazer a limpeza do paladar entre um item e outro. 
                                         </p>
@@ -269,16 +281,18 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="border-b border-gray-200 py-4">
-                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(1)">
-                                        <h3 class="font-antonio text-lg font-semibold text-gray-800"> Quando é feito o pagamento?</h3>
-                                        <svg id="arrow-1" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                        </svg>
+                                <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
+                                    <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(6)">
+                                        <h3 class="font-antonio text-lg font-semibold text-gray-800">Porque todos os produtos tem frutas?</h3>
+                                        <div class="min-h-5 min-w-5">
+                                            <svg id="arrow-6" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
                                     </div>
-                                    <div id="answer-1" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                                    <div id="answer-6" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
                                         <p class="mt-2 text-gray-600 font-montserrat">
-                                            Pelo menos 50% do valor no momento que é feito o pedido. 
+                                            As frutas têm um papel bem especial nos nossos produtos, além de darem refrescância e colorido nas montagens elas servem para fazer a limpeza do paladar entre um item e outro. 
                                         </p>
                                     </div>
                                 </div>
@@ -287,10 +301,10 @@
                     </div>
                 </div>
             </section>
-            <footer class="px-4 py-5" style="background-image: url({{asset('storage/background.jpg')}})">
+            <footer class="px-4 py-5" style="background-image: url({{asset('background.jpg')}})">
                 <div class="flex flex-col gap-5">
                     <div class="max-w-56 m-auto">
-                        <img class="transform transition duration-300 ease-in-out hover:scale-110" src="{{asset('storage/logos/logo.png')}}" alt="">
+                        <img class="transform transition duration-300 ease-in-out hover:scale-110" src="{{asset('logos/logo.png')}}" alt="">
                     </div>
                     <div class="flex justify-center gap-4 border-b-2 border-dashed pb-4">
                         <a href="" class="transform transition duration-300 ease-in-out hover:scale-150">
