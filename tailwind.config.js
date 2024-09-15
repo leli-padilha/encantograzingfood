@@ -14,7 +14,7 @@ export default {
       fontFamily: {
         antonio: ['Antonio', 'sans-serif'],
         montserrat: ['Montserrat', 'system-ui'],
-        lhcencoreregular: ['LHF Encore Regular']
+        lhcencoreregular: ['Cormorant Garamond', 'serif']
       },
     },
   },
