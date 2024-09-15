@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "LHF Encore Regular";   
+    src: url("64c956423d2c564f7ff1d44d76809e95.woff")format("woff"),
+        url("64c956423d2c564f7ff1d44d76809e95.woff2")format("woff2");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
