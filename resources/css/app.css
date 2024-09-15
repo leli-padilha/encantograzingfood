@@ -4,8 +4,8 @@
 
 @font-face{
     font-family: "LHF Encore Regular";   
-    src: url("fonts/64c956423d2c564f7ff1d44d76809e95.woff")format("woff"),
-        url("fonts/64c956423d2c564f7ff1d44d76809e95.woff2")format("woff2");
+    src: url("/build/assets/fonts//64c956423d2c564f7ff1d44d76809e95.woff")format("woff"),
+        url("/build/assets/fonts//64c956423d2c564f7ff1d44d76809e95.woff2")format("woff2");
     font-weight:normal;
     font-style:normal;
     font-display:swap;
