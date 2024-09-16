@@ -536,16 +536,21 @@
 
             <!-- Sobre e depoimentos -->
             <section class="w-full pt-5">
-                <div class="flex flex-col gap-5 px-4 py-5" style="background-image: url({{ asset('background.jpg') }})">
+                <div class="flex flex-col gap-5 px-4 py-5 md:px-10 md:py-10 relative bg-cover bg-center bg-no-repeat" style="background-image: url({{ asset('images/teste.jpg') }})">
+                
                     <div>
                         <div class="flex flex-col gap-2">
-                            <h2 class="text-center font-lhcencoreregular text-2xl text-white">A Encanto Grazing Food</h2>
-                            <p class="font-antonio text-center text-white tracking-wide	">A Encanto surgiu da necessidade de ter em nossa cidade uma opção de presente/comida afetiva, que fosse além de alimento, que entregasse amor, gratidão, pedido de desculpas, desejos de felicidades, enfim, que enchesse os olhos, a barriga e o coração de quem receber.</p>
+                            <h2 class="text-center font-lhcencoreregular text-3xl text-white">A Encanto Grazing Food</h2>
+                            <p class="max-w-3xl m-auto font-antonio text-center text-white tracking-wide">A Encanto surgiu da necessidade de ter em nossa cidade uma opção de presente/comida afetiva, que fosse além de alimento, que entregasse amor, gratidão, pedido de desculpas, desejos de felicidades, enfim, que enchesse os olhos, a barriga e o coração de quem receber.</p>
                         </div>
                     </div>
                     <div class="flex flex-col gap-2">
-                        <h3 class="font-lhcencoreregular text-2xl text-center text-white">Pessoas que </h3>
-                        <div class="grid grid-cols-1 gap-4">
+                        <h3 class="font-lhcencoreregular text-2xl text-center text-white font-semibold">Depoimentos </h3>
+                        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+                            <div class="bg-white p-4 text-center flex flex-col gap-4 rounded-2xl">
+                                <span class="font-lhcencoreregular text-xl">Sandra Martins</span>
+                                <p class="font-antonio">“Foi o melhor presente e mais significativo em que já recebi, muito amor envolvido”</p>
+                            </div>
                             <div class="bg-white p-4 text-center flex flex-col gap-4 rounded-2xl">
                                 <span class="font-lhcencoreregular text-xl">Sandra Martins</span>
                                 <p class="font-antonio">“Foi o melhor presente e mais significativo em que já recebi, muito amor envolvido”</p>
@@ -566,7 +571,7 @@
             <!-- Perguntas Frequentes -->
             <section class="px-4 py-5">
                 <div class="max-w-7xl m-auto flex flex-col gap-5 md:flex-row">
-                    <h3 class="font-lhcencoreregular text-2xl text-center md:w-2/5">Perguntas Frequentes</h3>
+                    <h3 class="font-lhcencoreregular text-3xl text-center md:w-2/5">Perguntas Frequentes</h3>
                     <div class="w-full md:w-3/5">
                         <ul class="flex flex-col gap-4">
                             <li>
@@ -692,8 +697,9 @@
                             </svg>
                         </a>                            
                     </div>
-                    <div class="text-white">
-                        Copyritin Encanto Grazing Food Todos os direitos reservados
+                    <div class="w-full text-white text-sm text-center flex flex-col justify-center gap-4 md:flex-row">
+                        <p>© 2024 Encanto Grazing Food. Todos os direitos reservados.</p>
+                        
                         <p>Desenvolvido por Padilha's Webdesign</p>
                     </div>
                 </div>
