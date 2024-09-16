@@ -9,7 +9,8 @@ export default {
     extend: {
       colors: {
         primary: '#272020',
-        secondary: '#CE983E'
+        secondary: '#CE983E',
+        terciary: '#564C49'
       },
       fontFamily: {
         antonio: ['Antonio', 'sans-serif'],
