@@ -3,8 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="shortcut icon" href="{{ asset('logos/logo.png') }}" type="image/x-icon">
         <title>Encanto Grazing Food</title>
+
+        <meta property="og:title" content="Encanto Grazing Food" />
+        <meta property="og:description" content="Surpreenda quem você ama com nossas cestas de café da manhã, brunch entre outros produtos." />
+        <meta property="og:image" content="{{asset('images/hero.png')}}" />
+        <meta property="og:url" content="https://encantograzingfood.com.br" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="pt_BR" />
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
