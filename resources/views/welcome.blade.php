@@ -84,8 +84,8 @@
                 <div class="max-w-screen-xl m-auto flex flex-col justify-between gap-5 items-center md:flex-row md:gap-10">
                     <div class="w-full flex flex-col gap-5 md:gap-10">
                         <div class="flex flex-col gap-2">
-                            <h1 class="font-lhcencoreregular text-justify text-4xl font-medium sm:text-center xl:text-4xl xl:text-justify">Transforme uma simples cesta de café da manhã em um momento especial!</h1>
-                            <p class="font-antonio text-center text-sm tracking-wide xl:text-base xl:text-start">
+                            <h1 class="font-lhcencoreregular text-center text-4xl font-medium md:text-start xl:text-4xl xl:text-justify">Transforme uma simples cesta de café da manhã em um momento especial!</h1>
+                            <p class="font-antonio text-center text-sm tracking-wide md:text-start xl:text-base xl:text-start">
                                 <!-- Cestas encantadoras capazes de unir sabor e emoção em um único presente. </br> -->
                                 Criadas e entregues nas cidades de Marau, Vila Maria | RS. 
                             </p>
