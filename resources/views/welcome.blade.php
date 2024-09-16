@@ -546,22 +546,22 @@
                     </div>
                     <div class="flex flex-col gap-2">
                         <h3 class="font-lhcencoreregular text-2xl text-center text-white font-semibold">Depoimentos </h3>
-                        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
-                            <div class="bg-white p-4 text-center flex flex-col gap-4 rounded-2xl">
-                                <span class="font-lhcencoreregular text-xl">Sandra Martins</span>
-                                <p class="font-antonio">“Foi o melhor presente e mais significativo em que já recebi, muito amor envolvido”</p>
+                        <div class="max-w-7xl m-auto grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+                            <div class="bg-white p-5 text-center flex flex-col gap-4 rounded-2xl">
+                                <span class="font-lhcencoreregular text-xl font-semibold">Caroline</span>
+                                <p class="font-antonio">“Maravilhosa, obrigada!</br> Virei cliente, sempre que precisar vou chamar!”</p>
+                            </div>
+                            <div class="bg-secondary p-4 text-center flex flex-col gap-4 rounded-2xl">
+                                <span class="font-lhcencoreregular text-xl font-semibold">Jessica</span>
+                                <p class="font-antonio">“Ficou lindo e ela amou! Com certeza vou pegar mais vezes! Trabalho impecável. Atendimento de qualidade.”</p>
                             </div>
                             <div class="bg-white p-4 text-center flex flex-col gap-4 rounded-2xl">
-                                <span class="font-lhcencoreregular text-xl">Sandra Martins</span>
-                                <p class="font-antonio">“Foi o melhor presente e mais significativo em que já recebi, muito amor envolvido”</p>
+                                <span class="font-lhcencoreregular text-xl font-semibold">Danielle</span>
+                                <p class="font-antonio">“Maravilhoso, simplesmente. Obrigada por além de entregar comida boa, entregar amor!”</p>
                             </div>
-                            <div class="bg-white p-4 text-center flex flex-col gap-4 rounded-2xl">
-                                <span class="font-lhcencoreregular text-xl">Sandra Martins</span>
-                                <p class="font-antonio">“Foi o melhor presente e mais significativo em que já recebi, muito amor envolvido”</p>
-                            </div>
-                            <div class="bg-white p-4 text-center flex flex-col gap-4 rounded-2xl">
-                                <span class="font-lhcencoreregular text-xl">Sandra Martins</span>
-                                <p class="font-antonio">“Foi o melhor presente e mais significativo em que já recebi, muito amor envolvido”</p>
+                            <div class="bg-secondary p-4 text-center flex flex-col gap-4 rounded-2xl">
+                                <span class="font-lhcencoreregular text-xl font-semibold">Cleide</span>
+                                <p class="font-antonio">“Obrigada pelo carinho... Amei meu lanche que ainda se tornou café a manhã! Tudo uma delícia!”</p>
                             </div>
                         </div>
                     </div>
@@ -569,7 +569,7 @@
             </section>
 
             <!-- Perguntas Frequentes -->
-            <section class="px-4 py-5">
+            <section class="px-4 py-5 md:px-10 md:py-10">
                 <div class="max-w-7xl m-auto flex flex-col gap-5 md:flex-row">
                     <h3 class="font-lhcencoreregular text-3xl text-center md:w-2/5">Perguntas Frequentes</h3>
                     <div class="w-full md:w-3/5">
