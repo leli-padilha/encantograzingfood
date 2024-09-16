@@ -32,18 +32,19 @@
                 <div class="max-w-24 m-0 sm:max-w-28">
                     <img class="w-full" src="{{ asset('logos/logo_escrita.png') }}" alt="escrita logo marca encanto grazing food">
                 </div>
-                <a href="https://wa.me/5554996789747" target="_blank">
+                <a href="https://wa.me/5554991257469" target="_blank">
                     <div class="flex flex-row gap-2">
                         <svg class="w-6 h-6" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.05 5.06923C18.1331 4.14334 17.041 3.4092 15.8375 2.9096C14.634 2.40999 13.3431 2.15492 12.04 2.15923C6.58 2.15923 2.13 6.60923 2.13 12.0692C2.13 13.8192 2.59 15.5192 3.45 17.0192L2.05 22.1592L7.3 20.7792C8.75 21.5692 10.38 21.9892 12.04 21.9892C17.5 21.9892 21.95 17.5392 21.95 12.0792C21.95 9.42923 20.92 6.93923 19.05 5.06923ZM12.04 20.3092C10.56 20.3092 9.11 19.9092 7.84 19.1592L7.54 18.9792L4.42 19.7992L5.25 16.7592L5.05 16.4492C4.22755 15.1363 3.79092 13.6185 3.79 12.0692C3.79 7.52923 7.49 3.82923 12.03 3.82923C14.23 3.82923 16.3 4.68923 17.85 6.24923C18.6176 7.0131 19.2259 7.92178 19.6396 8.92256C20.0533 9.92335 20.2642 10.9963 20.26 12.0792C20.28 16.6192 16.58 20.3092 12.04 20.3092ZM16.56 14.1492C16.31 14.0292 15.09 13.4292 14.87 13.3392C14.64 13.2592 14.48 13.2192 14.31 13.4592C14.14 13.7092 13.67 14.2692 13.53 14.4292C13.39 14.5992 13.24 14.6192 12.99 14.4892C12.74 14.3692 11.94 14.0992 11 13.2592C10.26 12.5992 9.77 11.7892 9.62 11.5392C9.48 11.2892 9.6 11.1592 9.73 11.0292C9.84 10.9192 9.98 10.7392 10.1 10.5992C10.22 10.4592 10.27 10.3492 10.35 10.1892C10.43 10.0192 10.39 9.87923 10.33 9.75923C10.27 9.63923 9.77 8.41923 9.57 7.91923C9.37 7.43923 9.16 7.49923 9.01 7.48923H8.53C8.36 7.48923 8.1 7.54923 7.87 7.79923C7.65 8.04923 7.01 8.64923 7.01 9.86923C7.01 11.0892 7.9 12.2692 8.02 12.4292C8.14 12.5992 9.77 15.0992 12.25 16.1692C12.84 16.4292 13.3 16.5792 13.66 16.6892C14.25 16.8792 14.79 16.8492 15.22 16.7892C15.7 16.7192 16.69 16.1892 16.89 15.6092C17.1 15.0292 17.1 14.5392 17.03 14.4292C16.96 14.3192 16.81 14.2692 16.56 14.1492Z" fill="white"/>
                         </svg>
     
-                        <p class="text-slate-50 font-montserrat font-medium text-sm md:text-base">(54) 99779-8998</p>
+                        <p class="text-slate-50 font-montserrat font-medium text-sm md:text-base">(54) 99125-7469</p>
                     </div>
                 </a>
             </div>
         </header>
         <!-- Header -->
+   
 
         <main>
              <!-- Banners -->
@@ -154,14 +155,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$290,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Caf%C3%A9%20Encantar" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a>                                  
                                 </div>
                             </div>
                         </div>
@@ -196,14 +199,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$230,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Caf%C3%A9%20Felicidade" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a> 
                                 </div>
                             </div>
                         </div>
@@ -237,14 +242,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$140,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Caf%C3%A9%20Bom%Dia" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a> 
                                 </div>
                             </div>
                         </div>
@@ -278,14 +285,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$300,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Picnic" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a> 
                                 </div>
                             </div>
                         </div>
@@ -319,14 +328,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$280,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20T%C3%A1bua%20Desejo" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a> 
                                 </div>
                             </div>
                         </div>
@@ -360,14 +371,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$175,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20T%C3%A1bua%20Sensa%C3%A7%C3%A3o" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -401,14 +414,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$260,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Brunch" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -442,14 +457,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$160,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Mini%20Brunch" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -483,14 +500,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$190,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Fondue%20Chamego" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -524,14 +543,16 @@
                                 </div>
                                 <div class="flex justify-between items-center">
                                     <span class="font-lhcencoreregular text-2xl text-terciary">R$150,00</span>
-                                    <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
-                                            <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
-                                        </svg>
-                                        Encomendar
-                                    </button>
+                                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Despertar%20Kids" target="_blank">
+                                        <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium text-terciary shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 5.68193V4.92435C5 3.31771 6.34315 2.01526 8 2.01526C9.65687 2.01526 11 3.31771 11 4.92435V5.68193" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M1.80235 13.0902C1.46477 12.2172 1.78765 11.0915 2.4334 8.84008L3.33333 5.68188H12.6667L13.5666 8.84008C14.2123 11.0915 14.5352 12.2172 14.1977 13.0902C13.9909 13.6248 13.6239 14.0884 13.143 14.4222C11.3243 15.6848 4.59627 15.6296 2.85699 14.4222C2.37612 14.0884 2.00907 13.6248 1.80235 13.0902Z" stroke="#564C49" stroke-width="1.5"/>
+                                                <path d="M6.66667 8.01526H9.33333" stroke="#564C49" stroke-width="1.5"/>
+                                            </svg>
+                                            Encomendar
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -686,33 +707,36 @@
                         </ul>
                     </div>
                 </div>
-            </section>
-            <footer class="px-4 py-5" style="background-image: url({{asset('background.jpg')}})">
-                <div class="flex flex-col gap-5">
-                    <div class="max-w-56 m-auto">
-                        <img class="transform transition duration-300 ease-in-out hover:scale-110" src="{{asset('logos/logo.png')}}" alt="">
-                    </div>
-                    <div class="flex justify-center gap-4 border-b-2 border-dashed pb-4">
-                        <a href="" class="transform transition duration-300 ease-in-out hover:scale-150">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z" fill="white"/>
-                            </svg>
-                        </a>
-                        <a href="" class="transform transition duration-300 ease-in-out hover:scale-150">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.05 4.91C18.1331 3.98411 17.0411 3.24997 15.8376 2.75036C14.634 2.25076 13.3431 1.99568 12.04 2C6.58005 2 2.13005 6.45 2.13005 11.91C2.13005 13.66 2.59005 15.36 3.45005 16.86L2.05005 22L7.30005 20.62C8.75005 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.9501 17.38 21.9501 11.92C21.9501 9.27 20.92 6.78 19.05 4.91ZM12.04 20.15C10.56 20.15 9.11005 19.75 7.84005 19L7.54005 18.82L4.42005 19.64L5.25005 16.6L5.05005 16.29C4.2276 14.9771 3.79097 13.4593 3.79005 11.91C3.79005 7.37 7.49005 3.67 12.03 3.67C14.23 3.67 16.3 4.53 17.85 6.09C18.6177 6.85386 19.226 7.76254 19.6397 8.76333C20.0534 9.76411 20.2642 10.8371 20.26 11.92C20.2801 16.46 16.58 20.15 12.04 20.15ZM16.56 13.99C16.31 13.87 15.09 13.27 14.87 13.18C14.64 13.1 14.48 13.06 14.31 13.3C14.14 13.55 13.67 14.11 13.53 14.27C13.39 14.44 13.24 14.46 12.99 14.33C12.74 14.21 11.94 13.94 11 13.1C10.26 12.44 9.77005 11.63 9.62005 11.38C9.48005 11.13 9.60005 11 9.73005 10.87C9.84005 10.76 9.98005 10.58 10.1 10.44C10.22 10.3 10.27 10.19 10.35 10.03C10.43 9.86 10.39 9.72 10.33 9.6C10.27 9.48 9.77005 8.26 9.57005 7.76C9.37005 7.28 9.16005 7.34 9.01005 7.33H8.53005C8.36005 7.33 8.10005 7.39 7.87005 7.64C7.65005 7.89 7.01005 8.49 7.01005 9.71C7.01005 10.93 7.90005 12.11 8.02005 12.27C8.14005 12.44 9.77005 14.94 12.25 16.01C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.69 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.03 14.27C16.96 14.16 16.81 14.11 16.56 13.99Z" fill="white"/>
-                            </svg>
-                        </a>                            
-                    </div>
-                    <div class="w-full text-white text-sm text-center flex flex-col justify-center gap-4 md:flex-row">
-                        <p>© 2024 Encanto Grazing Food. Todos os direitos reservados.</p>
-                        
-                        <p>Desenvolvido por Padilha's Webdesign</p>
-                    </div>
-                </div>
-            </footer>
-
+            </section>  
         </main>
+        <footer class="px-4 py-5" style="background-image: url({{asset('background.jpg')}})">
+            <div class="flex flex-col gap-5">
+                <div class="max-w-56 m-auto">
+                    <img class="transform transition duration-300 ease-in-out hover:scale-110" src="{{asset('logos/logo.png')}}" alt="">
+                </div>
+                <div class="flex justify-center gap-4 border-b-2 border-dashed pb-4">
+                    <a href="https://www.instagram.com/encantograzingfood/" class="transform transition duration-300 ease-in-out hover:scale-150">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/5554991257469" class="transform transition duration-300 ease-in-out hover:scale-150">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.05 4.91C18.1331 3.98411 17.0411 3.24997 15.8376 2.75036C14.634 2.25076 13.3431 1.99568 12.04 2C6.58005 2 2.13005 6.45 2.13005 11.91C2.13005 13.66 2.59005 15.36 3.45005 16.86L2.05005 22L7.30005 20.62C8.75005 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.9501 17.38 21.9501 11.92C21.9501 9.27 20.92 6.78 19.05 4.91ZM12.04 20.15C10.56 20.15 9.11005 19.75 7.84005 19L7.54005 18.82L4.42005 19.64L5.25005 16.6L5.05005 16.29C4.2276 14.9771 3.79097 13.4593 3.79005 11.91C3.79005 7.37 7.49005 3.67 12.03 3.67C14.23 3.67 16.3 4.53 17.85 6.09C18.6177 6.85386 19.226 7.76254 19.6397 8.76333C20.0534 9.76411 20.2642 10.8371 20.26 11.92C20.2801 16.46 16.58 20.15 12.04 20.15ZM16.56 13.99C16.31 13.87 15.09 13.27 14.87 13.18C14.64 13.1 14.48 13.06 14.31 13.3C14.14 13.55 13.67 14.11 13.53 14.27C13.39 14.44 13.24 14.46 12.99 14.33C12.74 14.21 11.94 13.94 11 13.1C10.26 12.44 9.77005 11.63 9.62005 11.38C9.48005 11.13 9.60005 11 9.73005 10.87C9.84005 10.76 9.98005 10.58 10.1 10.44C10.22 10.3 10.27 10.19 10.35 10.03C10.43 9.86 10.39 9.72 10.33 9.6C10.27 9.48 9.77005 8.26 9.57005 7.76C9.37005 7.28 9.16005 7.34 9.01005 7.33H8.53005C8.36005 7.33 8.10005 7.39 7.87005 7.64C7.65005 7.89 7.01005 8.49 7.01005 9.71C7.01005 10.93 7.90005 12.11 8.02005 12.27C8.14005 12.44 9.77005 14.94 12.25 16.01C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.69 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.03 14.27C16.96 14.16 16.81 14.11 16.56 13.99Z" fill="white"/>
+                        </svg>
+                    </a>                            
+                </div>
+                <div class="w-full text-white text-sm text-center flex flex-col justify-center gap-4 md:flex-row">
+                    <p>© 2024 Encanto Grazing Food. Todos os direitos reservados.</p>
+                    
+                    <p>Desenvolvido por Padilha's Webdesign</p>
+                </div>
+            </div>
+        </footer>
+        <a href="https://wa.me/5554991257469" target="_blank">
+            <img src="{{ asset('images/whats.png') }}" alt="WhatsApp" class="fixed bottom-4 right-4 w-16 h-16 animate-pulse-slow"/>
+        </a>
+        
     </body>
 
 <script>

@@ -17,6 +17,15 @@ export default {
         montserrat: ['Montserrat', 'system-ui'],
         lhcencoreregular: ['Cormorant Garamond', 'serif']
       },
+      animation: {
+        'pulse-slow': 'pulse 2s infinite',
+      },
+      keyframes: {
+        pulse: {
+          '0%, 100%': { transform: 'scale(1)'},
+          '50%': { transform: 'scale(1.1)'},
+        },
+      },
     },
   },
   plugins: [],
