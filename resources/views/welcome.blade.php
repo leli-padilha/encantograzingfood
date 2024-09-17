@@ -510,7 +510,7 @@
                                     <p class="font-montserrat text-sm">Bandeja MDF, ramequin de porcelana com ganache de chocolate, uvas, morangos, bergamota, amandita, marshmallow, waffer, garfinhos de metal. Flores para decorar conforme disponibilidade do dia.</p>
                                 </div>
                                 <div class="flex justify-between items-center">
-                                    <span class="font-lhcencoreregular text-2xl">R$190,00</span>
+                                    <span class="font-lhcencoreregular text-2xl">R$200,00</span>
                                     <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20Encanto%20gostaria%20de%20encomendar%20o%20produto%20Fondue%20Chamego" target="_blank">
                                         <button class="flex items-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
