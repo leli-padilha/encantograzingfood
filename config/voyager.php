@@ -42,7 +42,7 @@ return [
     */
 
     'models' => [
-        //'namespace' => 'App\\Models\\',
+        'Post' => TCG\Voyager\Models\Post::class,
     ],
 
     /*
