@@ -63,14 +63,23 @@ class PageController extends Controller
                 'imagem' => 'images/produtos/fondue_chamego.webp'
             ],
             [
-                'nome' => 'Despertar Kids',
-                'serve' => 'Serve 1',
-                'descricao' => 'Caixa craft 20x20, suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows.Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
-                'imagem' => 'images/produtos/kids.webp'
+                'nome' => 'Kids',
+                'cestas' => [
+                    [
+                        'nome' => 'Despertar Kids',
+                        'serve' => 'Serve 1',
+                        'descricao' => 'Caixa craft 20x20, suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows.Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
+                        'imagem' => 'images/produtos/kids.webp'
+                    ],
+                    [
+                        'nome' => 'Despertar Kids Personalizado',
+                        'serve' => '',
+                        'descricao' => 'Caixa de madeira, formato Mickey e borboleta , suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows.Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
+                        'imagem' => 'images/produtos/kids_perso.webp'
+                    ]
+                ]
             ]
         ];
-
-        //dd($produtos);
 
         return view('index', compact('produtos'));
     }

@@ -24,6 +24,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
@@ -52,37 +57,19 @@
              <!-- Banners -->
             <section class="w-full pb-5">
                 <div class="w-full">
-                    <div class="relative overflow-hidden w-full mx-auto">
+                    <div class="swiper">
                         
                         <!-- Container dos banners -->
-                        <div class="flex transition-transform duration-1000 ease-in-out" id="carousel">
+                        <div class="swiper-wrapper" >
                             <!-- Slides do carrossel -->
-                            <div class="w-full flex-shrink-0">
+                            <div class="swiper-slide">
                                 <img src="{{ asset('images/banner_grazing.png')}}" alt="Banner 1" class="w-full">
                             </div>
-                            <div class="w-full flex-shrink-0">
+                            <div class="swiper-slide">
                                 <img src="{{ asset('images/banner_grazing2.png')}}" alt="Banner 1" class="w-full">
                             </div>
                         </div>
-
-                        <!-- Botões de Navegação -->
-                        <button id="prevBtn" class="opacity-5 absolute top-1/2 left-4 transform -translate-y-1/2 text-white px-3 py-2 rounded-full">
-                            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.29279 12.707C8.10532 12.5195 8 12.2652 8 12C8 11.7348 8.10532 11.4805 8.29279 11.293L13.9498 5.636C14.042 5.54049 14.1524 5.46431 14.2744 5.4119C14.3964 5.35949 14.5276 5.3319 14.6604 5.33075C14.7932 5.3296 14.9248 5.3549 15.0477 5.40518C15.1706 5.45546 15.2823 5.52971 15.3762 5.6236C15.4701 5.7175 15.5443 5.82915 15.5946 5.95205C15.6449 6.07494 15.6702 6.20662 15.669 6.3394C15.6679 6.47218 15.6403 6.6034 15.5879 6.7254C15.5355 6.84741 15.4593 6.95775 15.3638 7.05L10.4138 12L15.3638 16.95C15.5459 17.1386 15.6467 17.3912 15.6445 17.6534C15.6422 17.9156 15.537 18.1664 15.3516 18.3518C15.1662 18.5372 14.9154 18.6424 14.6532 18.6447C14.391 18.647 14.1384 18.5462 13.9498 18.364L8.29279 12.707Z" fill="#272020"/>
-                            </svg>
-                        </button>
-                        <button id="nextBtn" class="opacity-5 absolute top-1/2 right-4 transform -translate-y-1/2 text-white px-3 py-2 rounded-full">
-                            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_355_1183)">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7069 11.293C15.8943 11.4805 15.9996 11.7348 15.9996 12C15.9996 12.2652 15.8943 12.5195 15.7069 12.707L10.0499 18.364C9.95761 18.4595 9.84726 18.5357 9.72526 18.5881C9.60326 18.6405 9.47204 18.6681 9.33926 18.6693C9.20648 18.6704 9.0748 18.6451 8.9519 18.5948C8.829 18.5445 8.71735 18.4703 8.62346 18.3764C8.52957 18.2825 8.45531 18.1709 8.40503 18.048C8.35475 17.9251 8.32945 17.7934 8.3306 17.6606C8.33176 17.5278 8.35934 17.3966 8.41175 17.2746C8.46416 17.1526 8.54034 17.0422 8.63585 16.95L13.5859 12L8.63585 7.05C8.4537 6.8614 8.3529 6.6088 8.35518 6.3466C8.35746 6.0844 8.46263 5.83359 8.64804 5.64818C8.83344 5.46277 9.08426 5.35761 9.34645 5.35533C9.60865 5.35305 9.86125 5.45384 10.0499 5.636L15.7069 11.293Z" fill="#272020"/>
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_355_1183">
-                                        <rect width="24" height="24" fill="white"/>
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </button>
+                        
                     </div>
                 </div>
             </section>
@@ -128,52 +115,111 @@
                     </div>
                     <!-- Container das miniaturas -->
                     <div class="w-full grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-10">
-                        
-                        
+                    
                         @foreach ($produtos as $produto)
                         <!-- Container minatura -->
-                            <div class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="zoom-in">
-                                <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
-                                    <img  src="{{ asset($produto['imagem']) }}" alt="{{$produto['descricao']}}" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
-                                </div>
-                                <div class="w-full h-full p-4 flex flex-col justify-between gap-5">
-                                    <div class="flex justify-between items-center">
-                                        <h3 class="font-lhcencoreregular text-2xl font-semibold">{{$produto['nome']}}</h3>
-                                        <div class="flex gap-1 ">
-                                            <svg width="18" height="18" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g clip-path="url(#clip0_359_810)">
-                                                <path d="M13.8493 12.6819C14.3488 12.6819 14.7461 12.3676 15.1029 11.928C15.8332 11.0282 14.6341 10.3091 14.1768 9.95695C13.7119 9.59895 13.1929 9.39615 12.6666 9.34855M11.9999 8.01522C12.9204 8.01522 13.6666 7.26902 13.6666 6.34855C13.6666 5.42808 12.9204 4.68188 11.9999 4.68188" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
-                                                <path d="M2.1506 12.6819C1.65106 12.6819 1.25374 12.3676 0.896988 11.928C0.166687 11.0282 1.36574 10.3091 1.82305 9.95695C2.28794 9.59895 2.80701 9.39615 3.33329 9.34855M3.66663 8.01522C2.74615 8.01522 1.99996 7.26902 1.99996 6.34855C1.99996 5.42808 2.74615 4.68188 3.66663 4.68188" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
-                                                <path d="M5.38912 10.7561C4.70793 11.1773 2.92191 12.0373 4.00972 13.1135C4.54111 13.6393 5.13293 14.0153 5.877 14.0153H10.1229C10.8669 14.0153 11.4587 13.6393 11.9901 13.1135C13.0779 12.0373 11.2919 11.1773 10.6107 10.7561C9.01333 9.76833 6.98647 9.76833 5.38912 10.7561Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M10.3333 5.68184C10.3333 6.97051 9.2886 8.01518 7.99993 8.01518C6.71127 8.01518 5.66659 6.97051 5.66659 5.68184C5.66659 4.39318 6.71127 3.34851 7.99993 3.34851C9.2886 3.34851 10.3333 4.39318 10.3333 5.68184Z" stroke="black" stroke-width="1.5"/>
-                                                </g>
-                                                <defs>
-                                                <clipPath id="clip0_359_810">
-                                                <rect width="16" height="16" fill="white" transform="translate(0 0.681885)"/>
-                                                </clipPath>
-                                                </defs>
-                                            </svg>
-                                            <span class="font-montserrat font-medium text-xs">{{$produto['serve']}}</span>
+                            @if($produto['nome'] != 'Kids')
+                                <div class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="zoom-in">
+                                    <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
+                                        <img  src="{{ asset($produto['imagem']) }}" alt="{{$produto['descricao']}}" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
+                                    </div>
+                                    <div class="w-full h-full p-4 flex flex-col justify-between gap-5">
+                                        <div class="flex justify-between items-center">
+                                            <h3 class="font-lhcencoreregular text-2xl font-semibold">{{$produto['nome']}}</h3>
+                                            <div class="flex gap-1 ">
+                                                <svg width="18" height="18" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_359_810)">
+                                                    <path d="M13.8493 12.6819C14.3488 12.6819 14.7461 12.3676 15.1029 11.928C15.8332 11.0282 14.6341 10.3091 14.1768 9.95695C13.7119 9.59895 13.1929 9.39615 12.6666 9.34855M11.9999 8.01522C12.9204 8.01522 13.6666 7.26902 13.6666 6.34855C13.6666 5.42808 12.9204 4.68188 11.9999 4.68188" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                                    <path d="M2.1506 12.6819C1.65106 12.6819 1.25374 12.3676 0.896988 11.928C0.166687 11.0282 1.36574 10.3091 1.82305 9.95695C2.28794 9.59895 2.80701 9.39615 3.33329 9.34855M3.66663 8.01522C2.74615 8.01522 1.99996 7.26902 1.99996 6.34855C1.99996 5.42808 2.74615 4.68188 3.66663 4.68188" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                                    <path d="M5.38912 10.7561C4.70793 11.1773 2.92191 12.0373 4.00972 13.1135C4.54111 13.6393 5.13293 14.0153 5.877 14.0153H10.1229C10.8669 14.0153 11.4587 13.6393 11.9901 13.1135C13.0779 12.0373 11.2919 11.1773 10.6107 10.7561C9.01333 9.76833 6.98647 9.76833 5.38912 10.7561Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M10.3333 5.68184C10.3333 6.97051 9.2886 8.01518 7.99993 8.01518C6.71127 8.01518 5.66659 6.97051 5.66659 5.68184C5.66659 4.39318 6.71127 3.34851 7.99993 3.34851C9.2886 3.34851 10.3333 4.39318 10.3333 5.68184Z" stroke="black" stroke-width="1.5"/>
+                                                    </g>
+                                                    <defs>
+                                                    <clipPath id="clip0_359_810">
+                                                    <rect width="16" height="16" fill="white" transform="translate(0 0.681885)"/>
+                                                    </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                <span class="font-montserrat font-medium text-xs">{{$produto['serve']}}</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p class="font-montserrat text-sm text-pretty">{{$produto['descricao']}}</p>
+                                        </div>
+                                        <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
+                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
+                                                <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
+                                                        <path d="M2.70352 18.6124C2.19716 17.3029 2.68147 15.6144 3.6501 12.2373L5 7.5H19L20.3499 12.2373C21.3185 15.6144 21.8028 17.3029 21.2965 18.6124C20.9864 19.4143 20.4358 20.1097 19.7145 20.6104C16.9865 22.5043 6.8944 22.4216 4.28549 20.6104C3.56418 20.1097 3.01361 19.4143 2.70352 18.6124Z" stroke="black" stroke-width="1.5"/>
+                                                        <path d="M10 11H14" stroke="black" stroke-width="1.5"/>
+                                                    </svg>
+                                                        
+                                                    Encomendar
+                                                </button>
+                                            </a>                                  
                                         </div>
                                     </div>
-                                    <div>
-                                        <p class="font-montserrat text-sm text-pretty">{{$produto['descricao']}}</p>
-                                    </div>
-                                    <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
-                                        <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
-                                            <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
-                                                    <path d="M2.70352 18.6124C2.19716 17.3029 2.68147 15.6144 3.6501 12.2373L5 7.5H19L20.3499 12.2373C21.3185 15.6144 21.8028 17.3029 21.2965 18.6124C20.9864 19.4143 20.4358 20.1097 19.7145 20.6104C16.9865 22.5043 6.8944 22.4216 4.28549 20.6104C3.56418 20.1097 3.01361 19.4143 2.70352 18.6124Z" stroke="black" stroke-width="1.5"/>
-                                                    <path d="M10 11H14" stroke="black" stroke-width="1.5"/>
-                                                </svg>
-                                                    
-                                                Encomendar
-                                            </button>
-                                        </a>                                  
-                                    </div>
                                 </div>
-                            </div>
+                            @else 
+                                <div class="swiper w-full h-full rounded-2xl">
+                                
+                                    <!-- Container dos banners -->
+                                    <div class="swiper-wrapper h-full" >
+                                        <!-- Slides do carrossel -->
+                                        @foreach($produto['cestas'] as $cesta)
+                                            
+                                                <div class="swiper-slide bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="zoom-in">
+                                                    <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
+                                                        <img  src="{{ asset($cesta['imagem']) }}" alt="{{$cesta['descricao']}}" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
+                                                    </div>
+                                                    <div class="w-full h-full p-4 flex flex-col justify-between gap-5">
+                                                        <div class="flex justify-between items-center">
+                                                           
+                                                            <h3 class="font-lhcencoreregular text-2xl font-semibold">{{$cesta['nome']}}</h3>
+                                                            
+                                                            <div class="flex gap-1 ">
+                                                                @if(!empty($cesta['serve']))
+                                                                    <svg width="18" height="18" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <g clip-path="url(#clip0_359_810)">
+                                                                        <path d="M13.8493 12.6819C14.3488 12.6819 14.7461 12.3676 15.1029 11.928C15.8332 11.0282 14.6341 10.3091 14.1768 9.95695C13.7119 9.59895 13.1929 9.39615 12.6666 9.34855M11.9999 8.01522C12.9204 8.01522 13.6666 7.26902 13.6666 6.34855C13.6666 5.42808 12.9204 4.68188 11.9999 4.68188" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                                                        <path d="M2.1506 12.6819C1.65106 12.6819 1.25374 12.3676 0.896988 11.928C0.166687 11.0282 1.36574 10.3091 1.82305 9.95695C2.28794 9.59895 2.80701 9.39615 3.33329 9.34855M3.66663 8.01522C2.74615 8.01522 1.99996 7.26902 1.99996 6.34855C1.99996 5.42808 2.74615 4.68188 3.66663 4.68188" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                                                                        <path d="M5.38912 10.7561C4.70793 11.1773 2.92191 12.0373 4.00972 13.1135C4.54111 13.6393 5.13293 14.0153 5.877 14.0153H10.1229C10.8669 14.0153 11.4587 13.6393 11.9901 13.1135C13.0779 12.0373 11.2919 11.1773 10.6107 10.7561C9.01333 9.76833 6.98647 9.76833 5.38912 10.7561Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.3333 5.68184C10.3333 6.97051 9.2886 8.01518 7.99993 8.01518C6.71127 8.01518 5.66659 6.97051 5.66659 5.68184C5.66659 4.39318 6.71127 3.34851 7.99993 3.34851C9.2886 3.34851 10.3333 4.39318 10.3333 5.68184Z" stroke="black" stroke-width="1.5"/>
+                                                                        </g>
+                                                                        <defs>
+                                                                        <clipPath id="clip0_359_810">
+                                                                        <rect width="16" height="16" fill="white" transform="translate(0 0.681885)"/>
+                                                                        </clipPath>
+                                                                        </defs>
+                                                                    </svg>
+                                                                
+                                                                    <span class="font-montserrat font-medium text-xs">{{$cesta['serve']}}</span>
+                                                                @endif
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <p class="font-montserrat text-sm text-pretty">{{$cesta['descricao']}}</p>
+                                                        </div>
+                                                        <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
+                                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
+                                                                <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
+                                                                        <path d="M2.70352 18.6124C2.19716 17.3029 2.68147 15.6144 3.6501 12.2373L5 7.5H19L20.3499 12.2373C21.3185 15.6144 21.8028 17.3029 21.2965 18.6124C20.9864 19.4143 20.4358 20.1097 19.7145 20.6104C16.9865 22.5043 6.8944 22.4216 4.28549 20.6104C3.56418 20.1097 3.01361 19.4143 2.70352 18.6124Z" stroke="black" stroke-width="1.5"/>
+                                                                        <path d="M10 11H14" stroke="black" stroke-width="1.5"/>
+                                                                    </svg>
+                                                                        
+                                                                    Encomendar
+                                                                </button>
+                                                            </a>                                  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        @endforeach
+                                    </div>                    
+                                </div>
+                            @endif
                             <!-- Container minatura -->
                         @endforeach
                     </div>
@@ -348,46 +394,19 @@
         </a>
         
     </body>
+
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-    const carousel = document.getElementById('carousel');
-    const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
 
-    let currentIndex = 0;
-
-    function updateCarousel() {
-        const slideWidth = carousel.clientWidth;
-        carousel.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-    }
-
-    function nextSlide() {
-        if (currentIndex < carousel.children.length - 1) {
-            currentIndex++;
-        } else {
-            currentIndex = 0; // Loop para o início
-        }
-        updateCarousel();
-    }
-
-    function prevSlide() {
-        if (currentIndex > 0) {
-            currentIndex--;
-        } else {
-            currentIndex = carousel.children.length - 1; // Loop para o fim
-        }
-        updateCarousel();
-    }
-
-    nextBtn.addEventListener('click', nextSlide);
-    prevBtn.addEventListener('click', prevSlide);
-
-    // Atualiza o carrossel na inicialização
-    updateCarousel();
-
-    // Faz o carrossel avançar automaticamente a cada 2 segundos
-    setInterval(nextSlide, 5000);
+    var swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 5000, // 1 segundo
+            disableOnInteraction: false, // Continua após interação
+        },
+        loop: true, // Faz o loop infinito dos slides
+    });
 
     function toggleFaq(faqNumber) {
       const answer = document.getElementById(`answer-${faqNumber}`);
