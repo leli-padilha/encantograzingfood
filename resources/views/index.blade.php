@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="{{ asset('logos/logo.png') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('logos/logo.webp') }}" type="image/x-icon">
         <title>Encanto Grazing Food</title>
 
         <meta name="description" content="Encanto Grazing Food - Surpreenda quem você ama com nossas cestas de café da manhã, brunch entre outros produtos." />
@@ -37,7 +37,7 @@
         <header class="w-full bg-secondary px-5 py-4">
             <div class="max-w-screen-xl m-auto flex justify-between items-center">
                 <div class="max-w-24 m-0 sm:max-w-28">
-                    <img class="w-full" src="{{ asset('logos/logo_escrita.png') }}" alt="escrita logo marca encanto grazing food">
+                    <img class="w-full" src="{{ asset('logos/logo_escrita.webp') }}" alt="escrita logo marca encanto grazing food">
                 </div>
                 <a href="https://wa.me/5554991257469" target="_blank">
                     <button class="flex flex-row gap-2">
@@ -63,10 +63,10 @@
                         <div class="swiper-wrapper" >
                             <!-- Slides do carrossel -->
                             <div class="swiper-slide">
-                                <img src="{{ asset('images/banner_grazing.png')}}" alt="Banner 1" class="w-full">
+                                <img src="{{ asset('images/banner_grazing.webp')}}" alt="Seja bem vindo a Encanto Grazing Food" class="w-full">
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{ asset('images/banner_grazing2.png')}}" alt="Banner 1" class="w-full">
+                                <img src="{{ asset('images/banner_grazing2.webp')}}" alt="Cestas criadas harmonizadas, estudadas com muito carinho" class="w-full">
                             </div>
                         </div>
                         
@@ -96,7 +96,7 @@
                         </a>
                     </div>
                     <div class="max-w-[635px] w-full" data-aos="zoom-in-up">
-                        <img class="w-full" src="{{ asset('images/hero.png') }}" alt="">
+                        <img class="w-full" src="{{ asset('images/hero.webp') }}" alt="A Encanto possui 11 amáveis produtos">
                     </div>
                 </div>
             </section>
@@ -104,7 +104,7 @@
             
 
             <!-- Produtos -->
-            <section class="w-full h-full pt-5 p-0 md:pt-10  bg-center bg-no-repeat bg-cover" style="background-image: url('{{asset('images/teste.jpg')}}')"> <!-- Section vai ter imagem de fundo -->
+            <section class="w-full h-full pt-5 p-0 md:pt-10  bg-center bg-no-repeat bg-cover" style="background-image: url('{{asset('images/fundoprodutos.webp')}}')"> <!-- Section vai ter imagem de fundo -->
                 <div class="max-w-screen-xl m-auto flex border-t-2 border-l-2 border-r-2 border-secondary sm:flex flex-col px-4 py-4 md:px-10 bg-white rounded-t-xl gap-5"> <!-- fundo branco -->
                     <!-- Container titulo e subtitulo -->
                     <div class="w-full" data-aos="zoom-in">
@@ -174,11 +174,11 @@
                                             <!-- Nome do produto será exibido como padrão (Valor 1) -->
                                             <h3 id="produto-nome" class="font-lhcencoreregular text-2xl font-semibold">{{$produto['nome']}}</h3>
                                             <div class="relative">
-                                                <button class="bg-secondary rounded-full p-2 flex justify-center items-center" onclick="toggleDropdown()">
+                                                <button class="bg-secondary rounded-2xl p-2 flex justify-center items-center gap-1" onclick="toggleDropdown()">
                                                     Selecione
-                                                    <svg id="arrow-1" class="h-5 w-5 text-black transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                                    </svg>
+                                                    <svg id="arrow-prod1" idth="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M2.99996 19H21C21.1822 18.9994 21.3608 18.9492 21.5166 18.8546C21.6724 18.7601 21.7995 18.6248 21.8842 18.4635C21.9688 18.3021 22.0078 18.1207 21.9971 17.9387C21.9863 17.7568 21.9261 17.5813 21.823 17.431L12.823 4.43101C12.45 3.89201 11.552 3.89201 11.178 4.43101L2.17796 17.431C2.07379 17.581 2.0127 17.7566 2.00133 17.9388C1.98996 18.121 2.02875 18.3029 2.11348 18.4646C2.19821 18.6263 2.32564 18.7618 2.48193 18.8562C2.63822 18.9505 2.81738 19.0003 2.99996 19Z" fill="black"/>
+                                                    </svg> 
                                                 </button>
                                                 <!-- Dropdown -->
                                                 <div id="dropdown" class="absolute right-0 mt-2 w-56 bg-white shadow-lg rounded-lg hidden">
@@ -219,11 +219,11 @@
                                             <!-- Nome do produto será exibido como padrão (Valor 1) -->
                                             <h3 id="produto-nome" class="font-lhcencoreregular text-2xl font-semibold">Despertar Kids Personalizado</h3>
                                             <div class="relative">
-                                                <button class="bg-secondary rounded-full p-2 flex justify-center items-center" onclick="toggleDropdown()">
+                                                <button class="bg-secondary rounded-2xl p-2 flex justify-center items-center gap-1" onclick="toggleDropdown()">
                                                     Selecione
-                                                    <svg id="arrow-2" class="h-5 w-5 text-black transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                                    </svg>
+                                                    <svg id="arrow-prod2" width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M2.99996 19H21C21.1822 18.9994 21.3608 18.9492 21.5166 18.8546C21.6724 18.7601 21.7995 18.6248 21.8842 18.4635C21.9688 18.3021 22.0078 18.1207 21.9971 17.9387C21.9863 17.7568 21.9261 17.5813 21.823 17.431L12.823 4.43101C12.45 3.89201 11.552 3.89201 11.178 4.43101L2.17796 17.431C2.07379 17.581 2.0127 17.7566 2.00133 17.9388C1.98996 18.121 2.02875 18.3029 2.11348 18.4646C2.19821 18.6263 2.32564 18.7618 2.48193 18.8562C2.63822 18.9505 2.81738 19.0003 2.99996 19Z" fill="black"/>
+                                                    </svg> 
                                                 </button>
                                                 <!-- Dropdown -->
                                                 <div id="dropdown2" class="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg hidden">
@@ -266,7 +266,7 @@
 
             <!-- Sobre e depoimentos -->
             <section class="w-full">
-                <div class="flex flex-col gap-5 px-4 py-5 md:px-10 md:py-10 relative bg-cover bg-center bg-no-repeat" style="background-image: url({{ asset('images/sobre.png') }})">
+                <div class="flex flex-col gap-5 px-4 py-5 md:px-10 md:py-10 relative bg-cover bg-center bg-no-repeat" style="background-image: url({{ asset('images/sobre.webp') }})">
                 
                     <div>
                         <div class="flex flex-col gap-2">
@@ -308,10 +308,10 @@
                                 <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
                                     <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(1)">
                                         <h3 class="font-montserrat text-lg font-semibold text-gray-800"> Quando é feito o pagamento?</h3>
-                                        <div class="min-h-5 min-w-5">
-                                            <svg id="arrow-1" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                            </svg>
+                                        <div class="min-h-5 min-w-5 flex items-center">
+                                            <svg id="arrow-1" width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.99996 19H21C21.1822 18.9994 21.3608 18.9492 21.5166 18.8546C21.6724 18.7601 21.7995 18.6248 21.8842 18.4635C21.9688 18.3021 22.0078 18.1207 21.9971 17.9387C21.9863 17.7568 21.9261 17.5813 21.823 17.431L12.823 4.43101C12.45 3.89201 11.552 3.89201 11.178 4.43101L2.17796 17.431C2.07379 17.581 2.0127 17.7566 2.00133 17.9388C1.98996 18.121 2.02875 18.3029 2.11348 18.4646C2.19821 18.6263 2.32564 18.7618 2.48193 18.8562C2.63822 18.9505 2.81738 19.0003 2.99996 19Z" fill="black"/>
+                                            </svg>                         
                                         </div>
                                     </div>
                                     <div id="answer-1" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
@@ -325,10 +325,11 @@
                                 <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
                                     <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(2)">
                                         <h3 class="font-montserrat text-lg font-semibold text-gray-800"> Com quantos dias de antecedência preciso fazer o pedido?</h3>
-                                        <div class="min-h-5 min-w-5">
-                                            <svg id="arrow-2" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                        <div class="min-h-5 min-w-5 flex items-center">
+                                            <svg id="arrow-2" width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.99996 19H21C21.1822 18.9994 21.3608 18.9492 21.5166 18.8546C21.6724 18.7601 21.7995 18.6248 21.8842 18.4635C21.9688 18.3021 22.0078 18.1207 21.9971 17.9387C21.9863 17.7568 21.9261 17.5813 21.823 17.431L12.823 4.43101C12.45 3.89201 11.552 3.89201 11.178 4.43101L2.17796 17.431C2.07379 17.581 2.0127 17.7566 2.00133 17.9388C1.98996 18.121 2.02875 18.3029 2.11348 18.4646C2.19821 18.6263 2.32564 18.7618 2.48193 18.8562C2.63822 18.9505 2.81738 19.0003 2.99996 19Z" fill="black"/>
                                             </svg>
+                                                
                                         </div>
                                     </div>
                                     <div id="answer-2" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
@@ -342,9 +343,9 @@
                                 <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
                                     <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(3)">
                                         <h3 class="font-montserrat text-lg font-semibold text-gray-800"> Porque nosso produto Encanta quem consome?</h3>
-                                        <div class="min-h-5 min-w-5">
-                                            <svg id="arrow-3" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                        <div class="min-h-5 min-w-5 flex items-center">
+                                            <svg id="arrow-3" width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.99996 19H21C21.1822 18.9994 21.3608 18.9492 21.5166 18.8546C21.6724 18.7601 21.7995 18.6248 21.8842 18.4635C21.9688 18.3021 22.0078 18.1207 21.9971 17.9387C21.9863 17.7568 21.9261 17.5813 21.823 17.431L12.823 4.43101C12.45 3.89201 11.552 3.89201 11.178 4.43101L2.17796 17.431C2.07379 17.581 2.0127 17.7566 2.00133 17.9388C1.98996 18.121 2.02875 18.3029 2.11348 18.4646C2.19821 18.6263 2.32564 18.7618 2.48193 18.8562C2.63822 18.9505 2.81738 19.0003 2.99996 19Z" fill="black"/>
                                             </svg>
                                         </div>
                                     </div>
@@ -359,9 +360,9 @@
                                 <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
                                     <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(4)">
                                         <h3 class="font-montserrat text-lg font-semibold text-gray-800"> Balões personalizados, bolos recheados, biscoitos decorados, tem?</h3>
-                                        <div class="min-h-5 min-w-5">
-                                            <svg id="arrow-4" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                        <div class="min-h-5 min-w-5 flex items-center">
+                                            <svg id="arrow-4" width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.99996 19H21C21.1822 18.9994 21.3608 18.9492 21.5166 18.8546C21.6724 18.7601 21.7995 18.6248 21.8842 18.4635C21.9688 18.3021 22.0078 18.1207 21.9971 17.9387C21.9863 17.7568 21.9261 17.5813 21.823 17.431L12.823 4.43101C12.45 3.89201 11.552 3.89201 11.178 4.43101L2.17796 17.431C2.07379 17.581 2.0127 17.7566 2.00133 17.9388C1.98996 18.121 2.02875 18.3029 2.11348 18.4646C2.19821 18.6263 2.32564 18.7618 2.48193 18.8562C2.63822 18.9505 2.81738 19.0003 2.99996 19Z" fill="black"/>
                                             </svg>
                                         </div>
                                     </div>
@@ -376,10 +377,10 @@
                                 <div class="border-b border-gray-200 py-4 px-4 shadow rounded-2xl">
                                     <div class="flex justify-between items-center cursor-pointer" onclick="toggleFaq(5)">
                                         <h3 class="font-montserrat  text-lg font-semibold text-gray-800"> ⁠Porque todos os produtos tem frutas?</h3>
-                                        <div class="min-h-5 min-w-5">
-                                            <svg id="arrow-5" class="h-5 w-5 text-gray-500 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                            </svg>
+                                        <div class="min-h-5 min-w-5 flex items-center">
+                                            <svg id="arrow-5" width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.99996 19H21C21.1822 18.9994 21.3608 18.9492 21.5166 18.8546C21.6724 18.7601 21.7995 18.6248 21.8842 18.4635C21.9688 18.3021 22.0078 18.1207 21.9971 17.9387C21.9863 17.7568 21.9261 17.5813 21.823 17.431L12.823 4.43101C12.45 3.89201 11.552 3.89201 11.178 4.43101L2.17796 17.431C2.07379 17.581 2.0127 17.7566 2.00133 17.9388C1.98996 18.121 2.02875 18.3029 2.11348 18.4646C2.19821 18.6263 2.32564 18.7618 2.48193 18.8562C2.63822 18.9505 2.81738 19.0003 2.99996 19Z" fill="black"/>
+                                            </svg>                                               
                                         </div>
                                     </div>
                                     <div id="answer-5" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
@@ -395,10 +396,10 @@
                 </div>
             </section>  
         </main>
-        <footer class="px-4 py-5" style="background-image: url({{asset('images/footer.png')}})">
+        <footer class="px-4 py-5" style="background-image: url({{asset('images/footer.webp')}})">
             <div class="flex flex-col gap-5" data-aos="zoom-in-up">
                 <div class="max-w-40 m-auto pr-6" >
-                    <img class="transform transition duration-300 ease-in-out hover:scale-110" src="{{asset('logos/logo.png')}}" alt="logo encanto grazing food">
+                    <img class="transform transition duration-300 ease-in-out hover:scale-110" src="{{asset('logos/logo.webp')}}" alt="logo encanto grazing food">
                 </div>
                 <div class="flex justify-center gap-4 border-b-2 border-dashed pb-4">
                     
@@ -425,7 +426,7 @@
             </div>
         </footer>
         <a href="https://wa.me/5554991257469" target="_blank">
-            <img src="{{ asset('images/whats.png') }}" alt="WhatsApp" class="fixed bottom-4 right-4 w-16 h-16 animate-pulse-slow"/>
+            <img src="{{ asset('images/whats.webp') }}" alt="WhatsApp" class="fixed bottom-4 right-4 w-16 h-16 animate-pulse-slow"/>
         </a>
         
     </body>
@@ -467,8 +468,8 @@
     function toggleDropdown() {
         const dropdown = document.getElementById("dropdown");
         const dropdown2 = document.getElementById("dropdown2");
-        const arrow = document.getElementById("arrow-1");
-        const arrow2 = document.getElementById("arrow-2");
+        const arrow = document.getElementById("arrow-prod1");
+        const arrow2 = document.getElementById("arrow-prod2");
 
         dropdownOpen = !dropdownOpen;
 
