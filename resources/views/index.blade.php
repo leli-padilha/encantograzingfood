@@ -118,7 +118,7 @@
                     
                         @foreach ($produtos as $produto)
                         <!-- Container minatura -->
-                            @if($produto['nome'] != 'Kids')
+                            @if($produto['nome'] != 'Despertar Kids')
                                 <div class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="zoom-in">
                                     <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
                                         <img  src="{{ asset($produto['imagem']) }}" alt="{{$produto['descricao']}}" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
@@ -161,64 +161,104 @@
                                         </div>
                                     </div>
                                 </div>
-                            @else 
-                                <div class="swiper w-full h-full rounded-2xl">
+                            @else     
                                 
-                                    <!-- Container dos banners -->
-                                    <div class="swiper-wrapper h-full" >
-                                        <!-- Slides do carrossel -->
-                                        @foreach($produto['cestas'] as $cesta)
-                                            
-                                                <div class="swiper-slide bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="zoom-in">
-                                                    <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
-                                                        <img  src="{{ asset($cesta['imagem']) }}" alt="{{$cesta['descricao']}}" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
-                                                    </div>
-                                                    <div class="w-full h-full p-4 flex flex-col justify-between gap-5">
-                                                        <div class="flex justify-between items-center">
-                                                           
-                                                            <h3 class="font-lhcencoreregular text-2xl font-semibold">{{$cesta['nome']}}</h3>
-                                                            
-                                                            <div class="flex gap-1 ">
-                                                                @if(!empty($cesta['serve']))
-                                                                    <svg width="18" height="18" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                        <g clip-path="url(#clip0_359_810)">
-                                                                        <path d="M13.8493 12.6819C14.3488 12.6819 14.7461 12.3676 15.1029 11.928C15.8332 11.0282 14.6341 10.3091 14.1768 9.95695C13.7119 9.59895 13.1929 9.39615 12.6666 9.34855M11.9999 8.01522C12.9204 8.01522 13.6666 7.26902 13.6666 6.34855C13.6666 5.42808 12.9204 4.68188 11.9999 4.68188" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
-                                                                        <path d="M2.1506 12.6819C1.65106 12.6819 1.25374 12.3676 0.896988 11.928C0.166687 11.0282 1.36574 10.3091 1.82305 9.95695C2.28794 9.59895 2.80701 9.39615 3.33329 9.34855M3.66663 8.01522C2.74615 8.01522 1.99996 7.26902 1.99996 6.34855C1.99996 5.42808 2.74615 4.68188 3.66663 4.68188" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
-                                                                        <path d="M5.38912 10.7561C4.70793 11.1773 2.92191 12.0373 4.00972 13.1135C4.54111 13.6393 5.13293 14.0153 5.877 14.0153H10.1229C10.8669 14.0153 11.4587 13.6393 11.9901 13.1135C13.0779 12.0373 11.2919 11.1773 10.6107 10.7561C9.01333 9.76833 6.98647 9.76833 5.38912 10.7561Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                                        <path d="M10.3333 5.68184C10.3333 6.97051 9.2886 8.01518 7.99993 8.01518C6.71127 8.01518 5.66659 6.97051 5.66659 5.68184C5.66659 4.39318 6.71127 3.34851 7.99993 3.34851C9.2886 3.34851 10.3333 4.39318 10.3333 5.68184Z" stroke="black" stroke-width="1.5"/>
-                                                                        </g>
-                                                                        <defs>
-                                                                        <clipPath id="clip0_359_810">
-                                                                        <rect width="16" height="16" fill="white" transform="translate(0 0.681885)"/>
-                                                                        </clipPath>
-                                                                        </defs>
-                                                                    </svg>
-                                                                
-                                                                    <span class="font-montserrat font-medium text-xs">{{$cesta['serve']}}</span>
-                                                                @endif
-                                                            </div>
-                                                        </div>
-                                                        <div>
-                                                            <p class="font-montserrat text-sm text-pretty">{{$cesta['descricao']}}</p>
-                                                        </div>
-                                                        <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
-                                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
-                                                                <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
-                                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                        <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
-                                                                        <path d="M2.70352 18.6124C2.19716 17.3029 2.68147 15.6144 3.6501 12.2373L5 7.5H19L20.3499 12.2373C21.3185 15.6144 21.8028 17.3029 21.2965 18.6124C20.9864 19.4143 20.4358 20.1097 19.7145 20.6104C16.9865 22.5043 6.8944 22.4216 4.28549 20.6104C3.56418 20.1097 3.01361 19.4143 2.70352 18.6124Z" stroke="black" stroke-width="1.5"/>
-                                                                        <path d="M10 11H14" stroke="black" stroke-width="1.5"/>
-                                                                    </svg>
-                                                                        
-                                                                    Encomendar
-                                                                </button>
-                                                            </a>                                  
-                                                        </div>
+                        
+                                <div id="normal" class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="zoom-in">
+                                    <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
+                                        <!-- Valor 1 será o padrão exibido inicialmente -->
+                                        <img id="produto-imagem" src="{{ asset($produto['imagem']) }}" alt="{{$produto['descricao']}}" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
+                                    </div>
+                                    <div class="w-full h-full p-4 flex flex-col justify-between gap-5">
+                                        <div class="flex justify-between items-center">
+                                            <!-- Nome do produto será exibido como padrão (Valor 1) -->
+                                            <h3 id="produto-nome" class="font-lhcencoreregular text-2xl font-semibold">{{$produto['nome']}}</h3>
+                                            <div class="relative">
+                                                <button class="bg-secondary rounded-full p-2 flex justify-center items-center" onclick="toggleDropdown()">
+                                                    Selecione
+                                                    <svg id="arrow-1" class="h-5 w-5 text-black transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                                    </svg>
+                                                </button>
+                                                <!-- Dropdown -->
+                                                <div id="dropdown" class="absolute right-0 mt-2 w-56 bg-white shadow-lg rounded-lg hidden">
+                                                    <div class="py-1 w-full">
+                                                        <!-- Opção 1: Não faz nada, já é o valor padrão -->
+                                                        <div class="px-4 py-2 text-sm w-full text-gray-700 hover:bg-gray-200 cursor-pointer" onclick="selectOption('personalizado')">Despertar Kids Personalizado</div>
+                                                        <!-- Opção 2: Atualiza com novos valores via JavaScript -->
                                                     </div>
                                                 </div>
-                                        @endforeach
-                                    </div>                    
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- Descrição do produto como padrão (Valor 1) -->
+                                            <p id="produto-descricao" class="font-montserrat text-sm text-pretty">{{$produto['descricao']}}</p>
+                                        </div>
+                                        <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
+                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
+                                                <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
+                                                        <path d="M2.70352 18.6124C2.19716 17.3029 2.68147 15.6144 3.6501 12.2373L5 7.5H19L20.3499 12.2373C21.3185 15.6144 21.8028 17.3029 21.2965 18.6124C20.9864 19.4143 20.4358 20.1097 19.7145 20.6104C16.9865 22.5043 6.8944 22.4216 4.28549 20.6104C3.56418 20.1097 3.01361 19.4143 2.70352 18.6124Z" stroke="black" stroke-width="1.5"/>
+                                                        <path d="M10 11H14" stroke="black" stroke-width="1.5"/>
+                                                    </svg>
+                                                    Encomendar
+                                                </button>
+                                            </a>                                  
+                                        </div>
+                                    </div>
                                 </div>
+
+                                {{-- 'nome' => 'Despertar Kids Personalizado',
+                                'serve' => '',
+                                'descricao' => '',
+                                'imagem' => 'images/produtos/kids_perso.webp' --}}
+
+                                <div id="personalizado" class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110 hidden" data-aos="zoom-in">
+                                    <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
+                                        <!-- Valor 1 será o padrão exibido inicialmente -->
+                                        <img id="produto-imagem" src="{{ asset('images/produtos/kids_perso.webp') }}" alt="Despertar Kids Personalizado" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
+                                    </div>
+                                    <div class="w-full h-full p-4 flex flex-col justify-between gap-5">
+                                        <div class="flex justify-between items-center">
+                                            <!-- Nome do produto será exibido como padrão (Valor 1) -->
+                                            <h3 id="produto-nome" class="font-lhcencoreregular text-2xl font-semibold">Despertar Kids Personalizado</h3>
+                                            <div class="relative">
+                                                <button class="bg-secondary rounded-full p-2 flex justify-center items-center" onclick="toggleDropdown()">
+                                                    Selecione
+                                                    <svg id="arrow-2" class="h-5 w-5 text-black transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                                    </svg>
+                                                </button>
+                                                <!-- Dropdown -->
+                                                <div id="dropdown2" class="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg hidden">
+                                                    <div class="py-1">
+                                                        <!-- Opção 1: Não faz nada, já é o valor padrão -->
+                                                        <div class="px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 cursor-pointer" onclick="selectOption('normal')">Despertar Kids</div>
+                                                        <!-- Opção 2: Atualiza com novos valores via JavaScript -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- Descrição do produto como padrão (Valor 1) -->
+                                            <p id="produto-descricao" class="font-montserrat text-sm text-pretty">Caixa de madeira, formato Mickey e borboleta , suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows.Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.</p>
+                                        </div>
+                                        <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
+                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
+                                                <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
+                                                        <path d="M2.70352 18.6124C2.19716 17.3029 2.68147 15.6144 3.6501 12.2373L5 7.5H19L20.3499 12.2373C21.3185 15.6144 21.8028 17.3029 21.2965 18.6124C20.9864 19.4143 20.4358 20.1097 19.7145 20.6104C16.9865 22.5043 6.8944 22.4216 4.28549 20.6104C3.56418 20.1097 3.01361 19.4143 2.70352 18.6124Z" stroke="black" stroke-width="1.5"/>
+                                                        <path d="M10 11H14" stroke="black" stroke-width="1.5"/>
+                                                    </svg>
+                                                    Encomendar
+                                                </button>
+                                            </a>                                  
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             @endif
                             <!-- Container minatura -->
                         @endforeach
@@ -230,7 +270,7 @@
             <!-- Produtos -->
 
             <!-- Sobre e depoimentos -->
-            <section class="w-full pt-5">
+            <section class="w-full">
                 <div class="flex flex-col gap-5 px-4 py-5 md:px-10 md:py-10 relative bg-cover bg-center bg-no-repeat" style="background-image: url({{ asset('images/sobre.png') }})">
                 
                     <div>
@@ -256,13 +296,13 @@
                             </div>
                             <div class="bg-secondary p-4 text-center flex flex-col gap-4 rounded-2xl">
                                 <span class="font-lhcencoreregular text-2xl font-semibold">Cleide</span>
-                                <p class="font-montserrat">“Obrigada pelo carinho... Amei meu lanche que ainda se tornou café a manhã! Tudo uma delícia!”</p>
+                                <p class="font-montserrat">“Obrigada pelo carinho... Amei meu lanche que ainda se tornou café da manhã! Tudo uma delícia!”</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
+    
             <!-- Perguntas Frequentes -->
             <section class="px-4 py-5 md:px-10 md:py-10">
                 <div class="max-w-7xl m-auto flex flex-col gap-5 md:flex-row">
@@ -425,6 +465,39 @@
 
       // Rotaciona a setinha para baixo (caso esteja aberta)
       arrow.classList.toggle('rotate-180');
+    }
+
+    let dropdownOpen = false;
+
+    function toggleDropdown() {
+        const dropdown = document.getElementById("dropdown");
+        const dropdown2 = document.getElementById("dropdown2");
+        const arrow = document.getElementById("arrow-1");
+        const arrow2 = document.getElementById("arrow-2");
+
+        dropdownOpen = !dropdownOpen;
+
+        dropdown.classList.toggle("hidden", !dropdownOpen);
+        dropdown2.classList.toggle("hidden", !dropdownOpen);
+        arrow.style.transform = dropdownOpen ? "rotate(180deg)" : "rotate(0deg)";
+        arrow2.style.transform = dropdownOpen ? "rotate(180deg)" : "rotate(0deg)";
+    }
+
+    function selectOption(cesta) {
+        // Somente atualiza se a opção não for a "default"
+        const personalizado = document.getElementById("personalizado");
+        const normal = document.getElementById("normal");
+
+        if(cesta == 'personalizado'){
+            personalizado.classList.remove("hidden");
+            normal.classList.add("hidden");
+        }else{
+            normal.classList.remove("hidden");
+            personalizado.classList.add("hidden");
+        }
+        
+        // Fechar o dropdown
+        toggleDropdown();
     }
 </script>
 
