@@ -147,7 +147,7 @@
                                             <p class="font-montserrat text-sm text-pretty">{{$produto['descricao']}}</p>
                                         </div>
                                         <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
-                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
+                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20{{$produto['url_nome']}}" target="_blank">
                                                 <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
@@ -195,7 +195,7 @@
                                             <p id="produto-descricao" class="font-montserrat text-sm text-pretty">{{$produto['descricao']}}</p>
                                         </div>
                                         <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
-                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
+                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20{{$produto['url_nome']}}" target="_blank">
                                                 <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
@@ -208,11 +208,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                {{-- 'nome' => 'Despertar Kids Personalizado',
-                                'serve' => '',
-                                'descricao' => '',
-                                'imagem' => 'images/produtos/kids_perso.webp' --}}
 
                                 <div id="personalizado" class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110 hidden" data-aos="zoom-in">
                                     <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
@@ -245,7 +240,7 @@
                                             <p id="produto-descricao" class="font-montserrat text-sm text-pretty">Caixa de madeira, formato Mickey e borboleta , suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows.Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.</p>
                                         </div>
                                         <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
-                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20" target="_blank">
+                                            <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20Kids%20Personalizado" target="_blank">
                                                 <button class="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" stroke-width="1.5"/>
