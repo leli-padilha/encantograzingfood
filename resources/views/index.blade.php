@@ -28,7 +28,7 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         />
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
@@ -76,9 +76,9 @@
             <!-- baneers -->
 
             <!-- Hero -->
-            <section class="w-full px-4 py-4 md:px-10 md:py-10">
+            <section class="w-full px-4 py-4 md:px-10 md:py-10" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div class="max-w-screen-xl m-auto flex flex-col justify-between gap-5 items-center md:flex-row md:gap-10">
-                    <div class="w-full flex flex-col items-center gap-5 md:gap-10" data-aos="zoom-in-up">
+                    <div class="w-full flex flex-col items-center gap-5 md:gap-10">
                         <div class="flex flex-col gap-3">
                             <h1 class="font-lhcencoreregular text-center text-2xl font-medium xl:text-5xl xl:text-center text-pretty">Transforme uma simples cesta de café da manhã em um momento especial!</h1>
                             <p class="font-montserrat text-center text-sm tracking-wide xl:text-base xl:text-center">
@@ -95,7 +95,7 @@
                             </button>
                         </a>
                     </div>
-                    <div class="max-w-[635px] w-full" data-aos="zoom-in-up">
+                    <div class="max-w-[635px] w-full">
                         <img class="w-full" src="{{ asset('images/hero.webp') }}" alt="A Encanto possui 11 amáveis produtos">
                     </div>
                 </div>
@@ -107,7 +107,7 @@
             <section class="w-full h-full pt-5 p-0 md:pt-10  bg-center bg-no-repeat bg-cover" style="background-image: url('{{asset('images/fundoprodutos.webp')}}')"> <!-- Section vai ter imagem de fundo -->
                 <div class="max-w-screen-xl m-auto flex border-t-2 border-l-2 border-r-2 border-secondary sm:flex flex-col px-4 py-4 md:px-10 bg-white rounded-t-xl gap-5"> <!-- fundo branco -->
                     <!-- Container titulo e subtitulo -->
-                    <div class="w-full" data-aos="zoom-in">
+                    <div class="w-full" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                         <h2 class="text-center font-lhcencoreregular text-3xl xl:text-4xl font-bold">
                             Produtos
                         </h2>
@@ -119,7 +119,7 @@
                         @foreach ($produtos as $produto)
                         <!-- Container minatura -->
                             @if($produto['nome'] != 'Despertar Kids')
-                                <div class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="zoom-in">
+                                <div class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                                     <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
                                         <img  src="{{ asset($produto['imagem']) }}" alt="{{$produto['descricao']}}" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
                                     </div>
@@ -161,10 +161,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            @else     
-                                
-                        
-                                <div id="normal" class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="zoom-in">
+                            @else
+                                <div id="normal" class="bg-white w-fit h-fit md:h-full flex flex-col items-center shadow-md rounded-2xl xl:flex-row transition-transform duration-300 ease-in-out transform hover:scale-110" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                                     <div class="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none">
                                         <!-- Valor 1 será o padrão exibido inicialmente -->
                                         <img id="produto-imagem" src="{{ asset($produto['imagem']) }}" alt="{{$produto['descricao']}}" class="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110">
@@ -265,31 +263,31 @@
             <!-- Produtos -->
 
             <!-- Sobre e depoimentos -->
-            <section class="w-full">
+            <section class="w-full" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div class="flex flex-col gap-5 px-4 py-5 md:px-10 md:py-10 relative bg-cover bg-center bg-no-repeat" style="background-image: url({{ asset('images/sobre.webp') }})">
                 
                     <div>
                         <div class="flex flex-col gap-2">
-                            <h2 class="text-center font-lhcencoreregular font-semibold text-3xl text-white" data-aos="zoom-in-up">A Encanto Grazing Food</h2>
-                            <p class="max-w-2xl m-auto font-montserrat text-center text-white text-pretty tracking-wide" data-aos="zoom-in-up">A Encanto surgiu da necessidade de ter em nossa cidade uma opção de presente/comida afetiva, que fosse além de alimento, que entregasse amor, gratidão, pedido de desculpas, desejos de felicidades, enfim, que enchesse os olhos, a barriga e o coração de quem receber.</p>
+                            <h2 class="text-center font-lhcencoreregular font-semibold text-3xl text-white" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">A Encanto Grazing Food</h2>
+                            <p class="max-w-2xl m-auto font-montserrat text-center text-white text-pretty tracking-wide" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"">A Encanto surgiu da necessidade de ter em nossa cidade uma opção de presente/comida afetiva, que fosse além de alimento, que entregasse amor, gratidão, pedido de desculpas, desejos de felicidades, enfim, que enchesse os olhos, a barriga e o coração de quem receber.</p>
                         </div>
                     </div>
                     <div class="flex flex-col gap-2">
-                        <h3 class="font-lhcencoreregular text-2xl text-center text-white font-semibold" data-aos="zoom-in-up">Depoimentos </h3>
+                        <h3 class="font-lhcencoreregular text-2xl text-center text-white font-semibold" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Depoimentos </h3>
                         <div class="max-w-7xl m-auto grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4" data-aos="zoom-in-up">
-                            <div class="bg-white p-5 text-center flex flex-col gap-4 rounded-2xl">
+                            <div class="bg-white p-5 text-center flex flex-col gap-4 rounded-2xl" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                 <span class="font-lhcencoreregular text-2xl font-semibold">Caroline</span>
                                 <p class="font-montserrat">“Maravilhosa, obrigada!</br> Virei cliente, sempre que precisar vou chamar!”</p>
                             </div>
-                            <div class="bg-secondary p-4 text-center flex flex-col gap-4 rounded-2xl">
+                            <div class="bg-secondary p-4 text-center flex flex-col gap-4 rounded-2xl" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                                 <span class="font-lhcencoreregular text-2xl font-semibold">Jessica</span>
                                 <p class="font-montserrat">“Ficou lindo e ela amou! Com certeza vou pegar mais vezes! Trabalho impecável. Atendimento de qualidade.”</p>
                             </div>
-                            <div class="bg-white p-4 text-center flex flex-col gap-4 rounded-2xl">
+                            <div class="bg-white p-4 text-center flex flex-col gap-4 rounded-2xl" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                                 <span class="font-lhcencoreregular text-2xl font-semibold">Danielle</span>
                                 <p class="font-montserrat">“Maravilhoso, simplesmente. Obrigada por além de entregar comida boa, entregar amor!”</p>
                             </div>
-                            <div class="bg-secondary p-4 text-center flex flex-col gap-4 rounded-2xl">
+                            <div class="bg-secondary p-4 text-center flex flex-col gap-4 rounded-2xl" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                                 <span class="font-lhcencoreregular text-2xl font-semibold">Cleide</span>
                                 <p class="font-montserrat">“Obrigada pelo carinho... Amei meu lanche que ainda se tornou café da manhã! Tudo uma delícia!”</p>
                             </div>
@@ -299,7 +297,7 @@
             </section>
     
             <!-- Perguntas Frequentes -->
-            <section class="px-4 py-5 md:px-10 md:py-10">
+            <section class="px-4 py-5 md:px-10 md:py-10" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div class="max-w-7xl m-auto flex flex-col gap-5 md:flex-row">
                     <h3 class="font-lhcencoreregular font-semibold text-3xl text-center md:w-2/5">Perguntas Frequentes</h3>
                     <div class="w-full md:w-3/5">
@@ -396,8 +394,8 @@
                 </div>
             </section>  
         </main>
-        <footer class="px-4 py-5" style="background-image: url({{asset('images/footer.webp')}})">
-            <div class="flex flex-col gap-5" data-aos="zoom-in-up">
+        <footer class="px-4 py-5" style="background-image: url({{asset('images/footer.webp')}})" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <div class="flex flex-col gap-5">
                 <div class="max-w-40 m-auto pr-6" >
                     <img class="transform transition duration-300 ease-in-out hover:scale-110" src="{{asset('logos/logo.webp')}}" alt="logo encanto grazing food">
                 </div>
@@ -431,71 +429,72 @@
         
     </body>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 5000, // 1 segundo
+                disableOnInteraction: false, // Continua após interação
+            },
+            loop: true, // Faz o loop infinito dos slides
+        });
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
+        function toggleFaq(faqNumber) {
+        const answer = document.getElementById(`answer-${faqNumber}`);
+        const arrow = document.getElementById(`arrow-${faqNumber}`);
 
-    var swiper = new Swiper('.swiper', {
-        autoplay: {
-            delay: 5000, // 1 segundo
-            disableOnInteraction: false, // Continua após interação
-        },
-        loop: true, // Faz o loop infinito dos slides
-    });
-
-    function toggleFaq(faqNumber) {
-      const answer = document.getElementById(`answer-${faqNumber}`);
-      const arrow = document.getElementById(`arrow-${faqNumber}`);
-
-      // Verifica se o conteúdo está oculto
-      if (answer.style.maxHeight) {
-        // Esconde a resposta
-        answer.style.maxHeight = null;
-      } else {
-        // Mostra a resposta, ajustando a altura máxima ao tamanho do conteúdo
-        answer.style.maxHeight = answer.scrollHeight + "px";
-      }
-      // Alterna a visibilidade da resposta
-    //   answer.classList.toggle('hidden');
-
-      // Rotaciona a setinha para baixo (caso esteja aberta)
-      arrow.classList.toggle('rotate-180');
-    }
-
-    let dropdownOpen = false;
-
-    function toggleDropdown() {
-        const dropdown = document.getElementById("dropdown");
-        const dropdown2 = document.getElementById("dropdown2");
-        const arrow = document.getElementById("arrow-prod1");
-        const arrow2 = document.getElementById("arrow-prod2");
-
-        dropdownOpen = !dropdownOpen;
-
-        dropdown.classList.toggle("hidden", !dropdownOpen);
-        dropdown2.classList.toggle("hidden", !dropdownOpen);
-        arrow.style.transform = dropdownOpen ? "rotate(180deg)" : "rotate(0deg)";
-        arrow2.style.transform = dropdownOpen ? "rotate(180deg)" : "rotate(0deg)";
-    }
-
-    function selectOption(cesta) {
-        // Somente atualiza se a opção não for a "default"
-        const personalizado = document.getElementById("personalizado");
-        const normal = document.getElementById("normal");
-
-        if(cesta == 'personalizado'){
-            personalizado.classList.remove("hidden");
-            normal.classList.add("hidden");
-        }else{
-            normal.classList.remove("hidden");
-            personalizado.classList.add("hidden");
+        // Verifica se o conteúdo está oculto
+        if (answer.style.maxHeight) {
+            // Esconde a resposta
+            answer.style.maxHeight = null;
+        } else {
+            // Mostra a resposta, ajustando a altura máxima ao tamanho do conteúdo
+            answer.style.maxHeight = answer.scrollHeight + "px";
         }
-        
-        // Fechar o dropdown
-        toggleDropdown();
-    }
-</script>
+        // Alterna a visibilidade da resposta
+        //   answer.classList.toggle('hidden');
+
+        // Rotaciona a setinha para baixo (caso esteja aberta)
+        arrow.classList.toggle('rotate-180');
+        }
+
+        let dropdownOpen = false;
+
+        function toggleDropdown() {
+            const dropdown = document.getElementById("dropdown");
+            const dropdown2 = document.getElementById("dropdown2");
+            const arrow = document.getElementById("arrow-prod1");
+            const arrow2 = document.getElementById("arrow-prod2");
+
+            dropdownOpen = !dropdownOpen;
+
+            dropdown.classList.toggle("hidden", !dropdownOpen);
+            dropdown2.classList.toggle("hidden", !dropdownOpen);
+            arrow.style.transform = dropdownOpen ? "rotate(180deg)" : "rotate(0deg)";
+            arrow2.style.transform = dropdownOpen ? "rotate(180deg)" : "rotate(0deg)";
+        }
+
+        function selectOption(cesta) {
+            // Somente atualiza se a opção não for a "default"
+            const personalizado = document.getElementById("personalizado");
+            const normal = document.getElementById("normal");
+
+            if(cesta == 'personalizado'){
+                personalizado.classList.remove("hidden");
+                normal.classList.add("hidden");
+            }else{
+                normal.classList.remove("hidden");
+                personalizado.classList.add("hidden");
+            }
+            
+            // Fechar o dropdown
+            toggleDropdown();
+        }
+    </script>
 
     
 </html>
