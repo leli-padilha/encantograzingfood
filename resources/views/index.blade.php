@@ -235,7 +235,7 @@
                                         </div>
                                         <div>
                                             <!-- Descrição do produto como padrão (Valor 1) -->
-                                            <p id="produto-descricao" class="font-montserrat text-sm text-pretty">Caixa de madeira, formato Mickey e borboleta , suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows.Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.</p>
+                                            <p id="produto-descricao" class="font-montserrat text-sm text-pretty">Caixa de madeira, formato Mickey e borboleta , suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.</p>
                                         </div>
                                         <div class="w-full" data-aos="fade-up" data-aos-duration="1000">
                                             <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20Kids%20Personalizado" target="_blank">

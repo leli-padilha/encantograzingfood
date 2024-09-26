@@ -74,7 +74,7 @@ class PageController extends Controller
             [       
                 'nome' => 'Despertar Kids',
                 'serve' => 'Serve 1',
-                'descricao' => 'Caixa craft 20x20, suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows.Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
+                'descricao' => 'Caixa craft 20x20, suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
                 'imagem' => 'images/produtos/kids.webp',
                 'url_nome' => 'Despertar%20Kids'
             ]
