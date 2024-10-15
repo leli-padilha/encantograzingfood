@@ -15,7 +15,7 @@ module.exports = {
       fontFamily: {
         antonio: ['Antonio', 'sans-serif'],
         montserrat: ['Montserrat', 'system-ui'],
-        lhcencoreregular: ['Cormorant Garamond', 'serif']
+        lhcencoreregular: ['LHF Encore Regular']
       },
       animation: {
         'pulse-slow': 'pulse 2s infinite',

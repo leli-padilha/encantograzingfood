@@ -116,7 +116,7 @@ export default function Produtos(){
             <div className="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none"> 
                 <Image id="produto-imagem" src={produto.imagem} alt="descricao" width={350} height={350} className="w-full h-full object-cover rounded-t-lg xl:rounded-l-2xl xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110" />
             </div>
-            <div className="w-full p-4 gap-3 flex flex-col lg:gap-4 xl:justify-between">
+            <div className="w-full p-3 gap-3 flex flex-col lg:gap-4 xl:justify-between">
                 <div className="flex justify-between items-center">
                     
                     <h3 id="produto-nome" className="font-lhcencoreregular text-2xl font-medium">{produto.nome}</h3>
@@ -138,7 +138,6 @@ export default function Produtos(){
                     </div>
                 </div>
                 <div>
-
                     <p id="produto-descricao" className="font-montserrat text-sm text-pretty">{produto.descricao}</p>
                 </div>
                 <div className="w-full" data-aos="fade-up" data-aos-duration="1000">
