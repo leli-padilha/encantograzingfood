@@ -16,7 +16,7 @@ export const metadata = {
     url: 'https://encantograzingfood.com.br', // URL da página
     images: [
       {
-        url: '/logos/logo.webp', // URL da imagem
+        url: '/images/hero.webp', // URL da imagem
         width: 673, // Largura da imagem
         height: 260, // Altura da imagem
         alt: 'Logo Encanto Grazing Food',
