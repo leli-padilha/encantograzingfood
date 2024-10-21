@@ -6,6 +6,7 @@ import Hero from "./components/hero";
 import Produtos from "./components/produtos";
 import Sobre from "./components/sobre";
 import FAQ from "./components/faq";
+import Whats from "./components/whats";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <>
       <main>
+        <Whats/>
         <Banner/>
         <Hero/>
         <Produtos/>
