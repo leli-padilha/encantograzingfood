@@ -26,8 +26,6 @@ export default function Footer() {
                 </div>
                 <div className="w-full text-white text-sm text-center flex flex-col justify-center gap-4 md:flex-row">
                     <p>© 2024 Encanto Grazing Food. Todos os direitos reservados.</p>
-                    
-                    <p>Desenvolvido por Padilha's Webdesign</p>
                 </div>
             </div>
         </footer>
