@@ -9,70 +9,70 @@ const produtos = {
         serve: 'Serve 4',
         descricao: 'Bandeja redonda em madeira, suco, sachês de café, pães, croissant, biscoitos, waffles, cookies, salada de frutas, iogurte, manteiga, geleia, doce de leite, uvas e morangos, queijos brie e fatiado, salame italiano e presunto. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/cafe_encantar.webp',
-        url_nome: 'Café%20Encantar'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Café%20Encantar'
     },
     cafe_felicidade: {
         nome: 'Café Felicidade',
         serve: 'Serve 3',
         descricao: 'Bandeja redonda em madeira, suco, café, pão, croissant, cookies, madelines, waffles, biscoitos, iogurte, geleia, uvas, morangos, queijos (gruyere ou gouda) e fatiado, salame italiado e presunto. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/cafe_felicidade.webp',
-        url_nome: 'Café%20Felicidade'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Café%20Felicidade'
     },
     cafe_bom_dia: {
         nome: 'Café Bom Dia',
         serve: 'Serve 1',
         descricao: 'Caixa craft 20x20, suco, café, pão, croissant, waffles, biscoitos, madelines, geleia e manteiga, presunto, queijo fatiado, uvas, morangos, iogurte com granola. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/cafe_bom_dia.webp',
-        url_nome: 'Café%20Bom%20Dia'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Café%20Bom%20Dia'
     },
     bandeja_picnic: {
         nome: 'Bandeja Picnic',
         serve: 'Serve 6',
         descricao: 'Bandeja redonda em madeira, pão, torradinhas, geleia, pastinha, azeitonas, damascos, nuts, espetinhos caprese, 3 tipos de queijo, 3 tipos de charcuterias, uvas e morangos. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/picnic.webp',
-        url_nome: 'Bandeja%20Picnic'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Bandeja%20Picnic'
     },
     tabua_desejo: {
         nome: 'Tábua Desejo',
         serve: 'Serve 2',
         descricao: 'Tábua em MDF, torradinha, 3 tipos de queijos, 3 tipos de charcuterias, espetinhos caprese, geleia, pastinha, azeitonas, nuts, damascos, uvas e morangos. Ervas aromáticas e flores para decoração.',
         imagem: '/images/produtos/tabua_desejo.webp',
-        url_nome: 'Tábua%20Desejo'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Tábua%20Desejo'
     },
     tabua_sensacao: {
         nome: 'Tábua Sensação',
         serve: 'Serve 2',
         descricao: 'Bandeja MDF, torradinhas, 2 tipos de queijo, 2 tipos de charcuterias, espetinho caprese, azeitonas, geleia, pastinha, damascos, nuts, uvas e morangos. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/tabua_sensacao.webp',
-        url_nome: 'Tábua%20Sensação'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Tábua%20Sensação'
     },
     brunch: {
         nome: 'Brunch',
         serve: 'Serve 3',
         descricao: 'Bandeja em madeira, suco, sachês de café, pão, croissant, biscoitos, stoopowafel, salada de frutas, geleia, chocolate, uvas e morangos, espetinho caprese, queijos (gouda ou gruyere) e fatiado. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/brunch.webp',
-        url_nome: 'Brunch'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Brunch'
     },
     mini_brunch: {
         nome: 'Mini Brunch',
         serve: 'Serve 2',
         descricao: 'Bandeja MDF, suco de uva, chá ou mini espumante (+R$10,00), pão, croissant, cookies, biscoitos, geleia, 3 tipos de frutas, queijos (gouda ou gruyere) e fatiado, salame italiano e presunto. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/mini_brunch.webp',
-        url_nome: 'Mini%20Brunch'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Mini%20Brunch'
     },
     fondue_chamego: {
         nome: 'Fondue Chamego',
         serve: 'Serve 2',
         descricao: 'Bandeja MDF, ramequin de porcelana com ganache de chocolate, uvas, morangos, bergamota, amandita, marshmallow, waffer, garfinhos de metal. Flores para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/fondue_chamego.webp',
-        url_nome: 'Fondue%20Chamego'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Fondue%20Chamego'
     },
     despertar_kids: {
         nome: 'Despertar Kids',
         serve: 'Serve 1',
         descricao: 'Caixa craft 20x20, suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/kids.webp',
-        url_nome: 'Despertar%20Kids'
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20Kids'
     }
 };
 
@@ -83,7 +83,7 @@ export default function Produtos(){
         nome: 'Despertar Kids',
         descricao: 'Caixa craft 20x20, suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
         imagem: '/images/produtos/kids.webp',
-        url_nome: 'Despertar%20Kids',
+        url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20Kids',
       });
 
     // Função para alterar o produto Kids baseado na seleção do select
@@ -98,7 +98,7 @@ export default function Produtos(){
                 nome: 'Despertar Kids',
                 descricao: 'Caixa craft 20x20, suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
                 imagem: '/images/produtos/kids.webp',
-                url_nome: 'Despertar%20Kids',
+                url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20Kids',
             });
         } else if (selectedValue === 'Kids Personalizado') {
             // Altera para os valores do produto 'Kids Personalizado'
@@ -106,7 +106,7 @@ export default function Produtos(){
                 nome: 'Kids Personalizado',
                 descricao: 'Caixa de madeira, formato Mickey ou borboleta, suco de uva, misto quente no palito, croissant, madelines, waffles, biscoitos, frutas, nutella, pirulito grande, chocolate mms, balas fini, marshmallows. Flores ou ervas aromáticas para decorar conforme disponibilidade do dia.',
                 imagem: '/images/produtos/kids_perso.webp',
-                url_nome: 'Despertar%20Kids%20Personalizado',
+                url_nome: 'https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20Kids%20Personalizado',
             });
         }
     };
@@ -141,7 +141,7 @@ export default function Produtos(){
                     <p id="produto-descricao" className="font-montserrat text-sm text-pretty">{produto.descricao}</p>
                 </div>
                 <div className="w-full" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20UrlProduto" target="_blank">
+                    <a href={produto.url_nome} target="_blank">
                         <button className="w-full flex items-center justify-center gap-2  bg-secondary px-4 py-2 rounded-lg font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" strokeWidth="1.5"/>
@@ -178,7 +178,7 @@ export default function Produtos(){
                                         <div className="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-lg xl:rounded-tr-none">
                                             <Image id="produto-imagem" src={produtoKids.imagem} alt="descricao" width={350} height={350} className="w-full h-full object-cover rounded-t-lg xl:rounded-l-lg xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110" />
                                         </div>
-                                        <div className="w-full p-3 gap-3 flex flex-col lg:gap-4 xl:justify-between">
+                                        <div className="w-full p-3 gap-2 flex flex-col xl:justify-between">
                                             <div className="flex flex-col gap-2 md:gap-0 md:flex-row md:justify-between items-start">
                                                 
                                                 <h3 id="produto-nome" className="font-lhcencoreregular text-2xl md:text-3xl font-medium leading-6">{produtoKids.nome}</h3>
@@ -194,7 +194,7 @@ export default function Produtos(){
                                                 <p id="produto-descricao" className="font-montserrat text-sm text-pretty">{produtoKids.descricao}</p>
                                             </div>
                                             <div className="w-full" data-aos="fade-up" data-aos-duration="1000">
-                                                <a href="https://wa.me/5554991257469?text=Ol%C3%A1%20encanto%20gostaria%20de%20saber%20mais%20sobre%20o%20produto%20Despertar%20UrlProduto" target="_blank">
+                                                <a href={produtoKids.url_nome} target="_blank">
                                                     <button className="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-lg font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
                                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" strokeWidth="1.5"/>
