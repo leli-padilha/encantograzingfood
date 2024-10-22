@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Encanto Grazing Food',
   description: 'Transforme uma simples cesta de café da manhã em um momento especial.',
   icons: {
-    icon: '/logos/logo.webp',
+    icon: '/favicon.ico',
     apple: '/logos/logo.png',
   },
   openGraph: {
