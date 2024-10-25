@@ -3,28 +3,6 @@ import Head from "next/head";
 
 import AOSProvider from "./components/AOSProvider";
 
-export const metadata = {
-  title: 'Encanto Grazing Food',
-  description: 'Transforme uma simples cesta de café da manhã em um momento especial.',
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/logos/logo.png',
-  },
-  openGraph: {
-    title: 'Encanto Grazing Food',
-    description: 'Transforme uma simples cesta de café da manhã em um momento especial.',
-    url: 'https://encantograzingfood.com.br', // URL da página
-    images: [
-      {
-        url: '/hero.webp', // URL da imagem
-        width: 673, // Largura da imagem
-        height: 260, // Altura da imagem
-        alt: 'Logo Encanto Grazing Food',
-      },
-    ],
-  }
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="pt_br">
