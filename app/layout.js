@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
                     `}
                 </Script>
             </Head>
-            <body>
+            <body className="bg-[url('/images/fundoprodutos.png')] bg-center bg-no-repeat bg-cover">
                 <noscript>
                     <iframe 
                         src="https://www.googletagmanager.com/ns.html?id=GTM-N2LD8DFS"

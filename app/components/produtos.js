@@ -112,8 +112,8 @@ export default function Produtos(){
     };
 
     const renderProduto = (produto) => (
-        <div className="bg-white w-fit flex flex-col shadow-md rounded-lg xl:flex-row" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <div className="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-lg xl:rounded-tr-none"> 
+        <div className="bg-white w-fit flex flex-col shadow-md rounded-2xl xl:flex-row" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <div className="w-full h-full overflow-hidden relative rounded-t-2xl xl:rounded-l-2xl xl:rounded-tr-none"> 
                 <Image id="produto-imagem" src={produto.imagem} alt="descricao" width={350} height={350} className="w-full h-full object-cover rounded-t-lg xl:rounded-l-lg xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110" />
             </div>
             <div className="w-full p-3 gap-3 flex flex-col lg:gap-4 xl:justify-between">
@@ -142,7 +142,7 @@ export default function Produtos(){
                 </div>
                 <div className="w-full" data-aos="fade-up" data-aos-duration="1000">
                     <a href={produto.url_nome} target="_blank">
-                        <button className="w-full flex items-center justify-center gap-2  bg-secondary px-4 py-2 rounded-lg font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                        <button className="w-full flex items-center justify-center gap-2 bg-[url('/images/fundobtn.png')] bg-center bg-no-repeat bg-cover px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" strokeWidth="1.5"/>
                                 <path d="M2.70352 18.6124C2.19716 17.3029 2.68147 15.6144 3.6501 12.2373L5 7.5H19L20.3499 12.2373C21.3185 15.6144 21.8028 17.3029 21.2965 18.6124C20.9864 19.4143 20.4358 20.1097 19.7145 20.6104C16.9865 22.5043 6.8944 22.4216 4.28549 20.6104C3.56418 20.1097 3.01361 19.4143 2.70352 18.6124Z" stroke="black" strokeWidth="1.5"/>
@@ -157,14 +157,14 @@ export default function Produtos(){
     );
 
     return (
-        <section className="pt-5 p-0 md:pt-10 bg-[url('/images/fundoprodutos.webp')] bg-center bg-no-repeat bg-cover">
-            <div className="max-w-screen-xl m-auto flex border-t-2 border-l-2 border-r-2 border-secondary sm:flex flex-col px-4 py-4 md:px-5 bg-white rounded-t-xl gap-5">
+        <section className="pt-5">
+            <div className="xl:pt-10 2xl:max-w-screen-2xl 2xl:p-10 m-auto flex sm:flex flex-col px-4 py-4 md:px-5 bg-white bg-opacity-70 rounded-t-3xl gap-5 shadow-sm">
                 
                 <div className="w-full" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                    <h2 className="text-center font-lhcencoreregular text-3xl xl:text-4xl font-medium">
+                    <h2 className="text-center font-lhcencoreregular text-3xl md:text-4xl xl:text-5xl font-medium">
                         Produtos
                     </h2>
-                    <h3 className="text-center font-montserrat text-sm xl:text-base font-base">Encanto Grazing Food</h3>
+                    <h3 className="text-center font-montserrat text-sm md:text-xl xl:text-xl font-base font-medium text-secondary">Encanto Grazing Food</h3>
                 </div>
                 
                 <div className="w-full grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -174,8 +174,8 @@ export default function Produtos(){
 
                             if(produto.nome === 'Despertar Kids') {
                                 return (
-                                    <div key={key} className="w-fit h-fit bg-white flex flex-col shadow-md rounded-lg xl:flex-row" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                                        <div className="w-full h-full overflow-hidden relative rounded-t-lg xl:rounded-l-lg xl:rounded-tr-none">
+                                    <div key={key} className="w-fit h-fit bg-white flex flex-col shadow-md rounded-2xl xl:flex-row" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                                        <div className="w-full h-full overflow-hidden relative rounded-t-2xl xl:rounded-l-2xl xl:rounded-tr-none">
                                             <Image id="produto-imagem" src={produtoKids.imagem} alt="descricao" width={350} height={350} className="w-full h-full object-cover rounded-t-lg xl:rounded-l-lg xl:rounded-tr-none transition-transform duration-300 ease-in-out transform hover:scale-110" />
                                         </div>
                                         <div className="w-full p-3 gap-2 flex flex-col xl:justify-between">
@@ -195,7 +195,7 @@ export default function Produtos(){
                                             </div>
                                             <div className="w-full" data-aos="fade-up" data-aos-duration="1000">
                                                 <a href={produtoKids.url_nome} target="_blank">
-                                                    <button className="w-full flex items-center justify-center gap-2 bg-secondary px-4 py-2 rounded-lg font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
+                                                    <button className="w-full flex items-center justify-center gap-2 bg-[url('/images/fundobtn.png')] bg-center bg-no-repeat bg-cover px-4 py-2 rounded-2xl font-montserrat font-medium shadow-md transform transition duration-300 ease-in-out hover:scale-110">
                                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M7.5 7.5V6.36364C7.5 3.95367 9.51472 2 12 2C14.4853 2 16.5 3.95367 16.5 6.36364V7.5" stroke="black" strokeWidth="1.5"/>
                                                             <path d="M2.70352 18.6124C2.19716 17.3029 2.68147 15.6144 3.6501 12.2373L5 7.5H19L20.3499 12.2373C21.3185 15.6144 21.8028 17.3029 21.2965 18.6124C20.9864 19.4143 20.4358 20.1097 19.7145 20.6104C16.9865 22.5043 6.8944 22.4216 4.28549 20.6104C3.56418 20.1097 3.01361 19.4143 2.70352 18.6124Z" stroke="black" strokeWidth="1.5"/>

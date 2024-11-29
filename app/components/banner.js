@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 
 export default function Banner(){
     return (
-        <section className="w-full">
+        <section className="w-full h-[50vh">
             <Swiper
                 modules={[Autoplay, EffectFade]}
                 spaceBetween={30}

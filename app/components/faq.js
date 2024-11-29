@@ -37,7 +37,7 @@ export default function FAQ() {
   return (
     <section className="bg-gradientFundo p-4 md:p-10">
         <div className="max-w-7xl m-auto flex flex-col lg:flex-row gap-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <h2 className="font-lhcencoreregular text-3xl font-medium text-center md:text-3xl">Perguntas Frequentes</h2>
+            <h2 className="font-lhcencoreregular text-3xl font-medium text-center md:text-3xl xl:text-5xl">Perguntas Frequentes</h2>
             <div className="flex flex-col gap-4 xl:gap-6">
                 {faqs.map((faq, index) => (
                     <div key={index} className="rounded-2xl bg-white shadow-md">
